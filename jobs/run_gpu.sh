@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# All LLM and fine-tuning runs of the paper (one CUDA GPU with at least 10 GB). Run after ./reproduce.sh --setup.
+# All LLM and fine-tuning runs of the paper (one CUDA GPU with at least 10 GB). Run after creating .venv and downloading the datasets (see README).
 set -e
 cd "$(dirname "$0")/.."
 PY=.venv/bin/python; pip_extra="xgrammar==0.2.8 bitsandbytes==0.50.2"; .venv/bin/pip install -q $pip_extra
