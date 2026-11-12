@@ -4,13 +4,17 @@ Code, prompts, per-requirement predictions and analysis scripts for the paper "S
 
 ## Check the results (CPU, a few minutes, no GPU)
 
-    ./reproduce.sh
+    python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+    R=results/evident/Llama-3.1-8B-Instruct-bnb-4bit_hf_k8_
+    .venv/bin/python src/compare_baselines.py ${R}n10_T0.7_s42_p443b9c_constrained_q4_eval ${R}n10_T0.7_s42_p443b9c_constrained_q4_dalpiaz
+    .venv/bin/python src/rq2_compare.py ${R}n10_T0.7_s42_p443b9c_constrained_q4_eval ${R}n1_T0.7_s42_p6b8f57_constrained_q4_verbal_eval --B 10000
 
-Builds a Python environment and recomputes the RQ1 and RQ2 tables from the saved predictions in `results/`.
+These recompute the RQ1 and RQ2 tables from the saved per-requirement predictions in `results/`.
 
 ## Re-run the experiments (one CUDA GPU with at least 10 GB, about 7 hours)
 
-    ./reproduce.sh --setup   # downloads PROMISE-reclass, Dalpiaz-4 and iTrust at pinned commits
+Download the datasets into `data/` (PROMISE-reclass from github.com/tobhey/NoRBERT at 00c2f566, Dalpiaz-4 from github.com/explainable-re/RE-2019-Materials at 23ff85b1, iTrust from github.com/tobhey/finegrained-traceability at 197cf2f3, cloned as `data/NoRBERT`, `data/dalpiaz`, `data/ftlr`), then run:
+
     jobs/run_gpu.sh
 
 ## Layout
