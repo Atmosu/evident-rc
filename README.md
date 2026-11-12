@@ -15,6 +15,10 @@ Post-cutoff test set (82 requirements quoted from four public software tenders, 
 
     .venv/bin/python src/compare_postcutoff.py
 
+All tables and the two confidence charts of the results-analysis report (`docs/EVIDENT-RC_Results_Analysis.pdf`) are recomputed into `results/report/` by:
+
+    .venv/bin/python src/report_tables.py
+
 ## Re-run the experiments (one CUDA GPU with at least 10 GB, about 7 hours)
 
 Download the datasets into `data/` (PROMISE-reclass from github.com/tobhey/NoRBERT at 00c2f566, Dalpiaz-4 from github.com/explainable-re/RE-2019-Materials at 23ff85b1, iTrust from github.com/tobhey/finegrained-traceability at 197cf2f3, cloned as `data/NoRBERT`, `data/dalpiaz`, `data/ftlr`), then run:
