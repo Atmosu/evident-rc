@@ -63,3 +63,12 @@ if __name__ == "__main__":
     p = promise()
     print("attr counts:", p.attr.value_counts(dropna=False).to_dict())
     print(dalpiaz_public().groupby("source")[["F", "Q"]].agg(["sum", "count"]))
+
+
+def post_cutoff(path=None):
+    """Post-cutoff external requirements (public tenders, Oct 2024 to Dec 2025) with human labels.
+    Two annotators on 13 items (adjudicated by the guideline), one on the rest; see annotation/owner/adjudication_log.csv."""
+    p = Path(path) if path else D / "external/post_cutoff_labels.csv"
+    d = pd.read_csv(p)
+    d["attr"] = d.attr.where(d.attr.notna(), None)
+    return d[["req_id", "source", "project", "text", "F", "Q", "orig_class", "attr"]].reset_index(drop=True)

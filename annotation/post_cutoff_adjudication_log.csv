@@ -1,0 +1,7 @@
+item_id,requirement,A,B,decision,rule
+EX-034,"Ability to connect on a desktop, tablet, laptop or mobile phone",F=0 Q=1 Operational,F=0 Q=1 Maintainability,B,"Working on several platforms: Q only, Maintainability"
+EX-037,"The platform must integrate with financial and accounting systems to enable real-time tracking, automated reimbursements, and reconciliation.",F=1 Q=0,F=0 Q=1 Operational,B,"Connecting to another system: Q only, Operational"
+EX-054,The system must integrate seamlessly with MSU’s existing Ellucian Banner system and have real-time integration options available.,F=1 Q=0,(not labelled),F=0 Q=1 Operational,"Connecting to another system: Q only, Operational"
+EX-070,It must also support Single Sign-On (SSO) functionality and be fully compatible with MSU’s Multi-Factor Authentication (MFA) requirements to enhance security and streamline user access.,F=1 Q=1 Security,F=0 Q=1 Security,B,"Who may access the system in general (login, SSO, MFA): Q only, Security"
+EX-076,Integrate with Emphasys Elite to prepopulate demographic information,F=1 Q=0,F=0 Q=1 Operational,B,"Connecting to another system: Q only, Operational"
+EX-079,The system will need to be able to allow authorized users to monitor and approve/deny requests and offer commentary or feedback that is viewable by the requestee.,F=1 Q=0,F=1 Q=1 Security,B,"Who may perform one specific action: F+Q, Security"

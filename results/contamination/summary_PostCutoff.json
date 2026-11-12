@@ -1,0 +1,24 @@
+{
+ "model": "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+ "quant": "4bit",
+ "decoding": "greedy",
+ "guided": "You are given the first part of a requirement from {name}. Complete the second part exactly as it appears in the dataset. Answer with the second part only.\nFirst part: {first}",
+ "general": "Complete the following software requirement with a plausible ending. Answer with the rest of the requirement only.\nFirst part: {first}",
+ "sets": {
+  "PostCutoff": {
+   "items": 78,
+   "rougeL_guided": 0.152,
+   "rougeL_general": 0.119,
+   "diff": 0.033,
+   "diff_ci": [
+    0.008,
+    0.058
+   ],
+   "near_exact_guided": 0,
+   "near_exact_general": 0,
+   "exact_guided": 0,
+   "exact_general": 0,
+   "secs": 41.8
+  }
+ }
+}

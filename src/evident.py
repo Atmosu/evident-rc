@@ -505,7 +505,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--backend", choices=["hf", "vllm"], default="hf")
     ap.add_argument("--model", default="Qwen/Qwen2.5-1.5B-Instruct")
-    ap.add_argument("--fold", default="P01", help="'eval' (the 13 evaluation projects), 'dev' (P02,P04), 'dalpiaz', 'itrust', or comma-separated test project ids")
+    ap.add_argument("--fold", default="P01", help="'eval' (the 13 evaluation projects), 'dev' (P02,P04), 'dalpiaz', 'itrust', 'postcutoff', or comma-separated test project ids")
     ap.add_argument("--limit", type=int, default=0, help="max test items per fold (0 = all)")
     ap.add_argument("--k", type=int, default=8); ap.add_argument("--n", type=int, default=5)
     ap.add_argument("--temperature", type=float, default=0.7); ap.add_argument("--max-tokens", type=int, default=200)
@@ -524,8 +524,8 @@ def main():
 
     from pilot import embed  # MiniLM encoder shared with the pilot
     P = D.promise(); E = embed(P.text.tolist())
-    if a.fold in ("dalpiaz", "itrust"):  # external test: retrieval pool = all of PROMISE, test = the external set by project
-        X = D.dalpiaz_public() if a.fold == "dalpiaz" else D.itrust()
+    if a.fold in ("dalpiaz", "itrust", "postcutoff"):  # external test: retrieval pool = all of PROMISE, test = the external set by project
+        X = {"dalpiaz": D.dalpiaz_public, "itrust": D.itrust, "postcutoff": D.post_cutoff}[a.fold]()
         EX = embed(X.text.tolist()); folds = sorted(X.project.unique()); split = a.fold
     else:
         folds = ([f for f in sorted(P.project.unique()) if f not in DEV_PROJECTS] if a.fold == "eval"
@@ -553,7 +553,7 @@ def main():
             "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None, "folds": {}}
     all_recs = []
     for fp in folds:
-        if split in ("dalpiaz", "itrust"):
+        if split in ("dalpiaz", "itrust", "postcutoff"):
             m = (X.project == fp).values
             recs, gen_s, info = run_items(P, E, X[m].reset_index(drop=True), EX[m], fp, llm, a, out_dir,
                                           {"n_train": len(P), "pool": "all PROMISE"})

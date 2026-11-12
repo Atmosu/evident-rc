@@ -1,0 +1,5 @@
+system,accuracy,AUROC,ECE,AURC
+EVIDENT-RC,0.476,0.668,0.263,0.401
+RoBERTa-large,0.561,0.824,0.185,0.22
+BERT-base,0.476,0.818,0.137,0.283
+MiniLM fine-tuned,0.549,0.747,0.192,0.251

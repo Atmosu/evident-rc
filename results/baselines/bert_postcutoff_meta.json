@@ -1,0 +1,27 @@
+{
+ "model": "bert",
+ "hf": "bert-base-uncased",
+ "pool": "cls",
+ "lr": 2e-05,
+ "epochs": 10,
+ "batch": 16,
+ "max_len": 128,
+ "seed": 42,
+ "device": "cuda",
+ "torch": "2.15.0+cu132",
+ "folds": [
+  {
+   "test": "postcutoff",
+   "val_project": "P02",
+   "n_train": 585,
+   "n_test": 82,
+   "T": {
+    "F": 1.7750072479248047,
+    "Q": 1.558425784111023,
+    "attr": 1.2945305109024048
+   },
+   "exact": 0.6341463414634146,
+   "secs": 22.8
+  }
+ ]
+}

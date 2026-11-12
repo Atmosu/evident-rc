@@ -1,0 +1,83 @@
+req_id,source,project,text,F,Q,orig_class,attr,F_quote,Q_quote,label_source
+EX-001,PostCutoff,GCAD,Allow scheduled report generation and automatic distribution via email or secure portal to authorized users.,1,0,,,scheduled report generation,,A only
+EX-002,PostCutoff,LAT,Program numbers must allow for a minimum of six (6) digits.,0,1,,Performance,, minimum of six (6) digits.,B only
+EX-003,PostCutoff,LAT,"Allows for unlimited user-defined, additional fields to be created to track customer information.",1,0,,,"user-defined, additional fields",,A only
+EX-004,PostCutoff,LAT,Passwords are protected by using an irreversible encryption algorithm.,0,1,,Security,,irreversible encryption algorithm,A only
+EX-005,PostCutoff,LAT,"Within one window, the system must allow for completion of transactions in multiple modules, resulting in one receipt.",1,0,,,completion of transactions,,B only
+EX-006,PostCutoff,MSU,"The vendor must offer email and phone support, along with a trouble ticket system.",0,1,,Operational,,email and phone support,A only
+EX-007,PostCutoff,MSU,"Transactions should be automatically imported, recorded within the system, and available for inclusion in expense reports to ensure efficient expense management.",1,0,,,automatically imported,,"A+B, agreed"
+EX-008,PostCutoff,GCAD,"The system must use a relational database management system (RDBMS) such as Microsoft SQL Server, PostgreSQL, or an equivalent enterprise-grade platform.",0,1,,Operational,,relational database management system (RDBMS) ,B only
+EX-009,PostCutoff,LAT,System must allow for archiving of inactive accounts and history.,1,0,,,archiving of inactive accounts,,A only
+EX-010,PostCutoff,LAT,"Ability to associate scanned documents (proof of insurance, contracts, waivers) to each customer record by a document imaging system.",1,0,,,associate scanned documents,,A only
+EX-012,PostCutoff,MSU,The system must allow select users and system administrators to create custom fields.,1,0,,,create custom fields,,A only
+EX-013,PostCutoff,LAT,"Ability to easily view all transaction history for customer file, including splitting out of credits or deductions from the account.",1,1,,Usability,view all transaction history,easily,"A+B, agreed"
+EX-015,PostCutoff,MSU,The system must accept files from Regions and Visa to import travel card charges (.pgp file format).,1,1,,Operational,import travel card charges,.pgp file format,A only
+EX-016,PostCutoff,MSU,Users must have the ability to track the status of their submissions and receive real-time notifications throughout the approval and reimbursement process.,1,0,,,track the status of their submissions,,A only
+EX-018,PostCutoff,HC,Ability to assign roles to determine which clients and information each staff member can see including Admin roles,1,1,,Security,assign roles,which clients and information each staff member can see,A only
+EX-019,PostCutoff,LAT,System must allow for scheduling of reports for automatic output at predefined intervals.,1,0,,,scheduling of reports for automatic output,,A only
+EX-021,PostCutoff,LAT,Allows for controlling the number of registrations that are allowed via Online Registration in order to reserve slots for walk-ins or mail in registrations.,1,0,,,controlling the number of registrations,,A only
+EX-022,PostCutoff,HC,Easily create in-house custom reports,1,1,,Usability,create in-house custom reports,Easily,A only
+EX-023,PostCutoff,MSU,The system must incorporate artificial intelligence (AI) and machine learning (ML) capabilities to detect irregularities in expense reporting.,1,0,,,detect irregularities in expense reporting,,B only
+EX-024,PostCutoff,MSU,"The system must meet all applicable local, state, and federal data security standards to ensure compliance with regulatory requirements.",0,1,,Legal,,"local, state, and federal",A only
+EX-025,PostCutoff,GCAD,The system must be delivered as a fully cloud-hosted Software-as-a-Service (SaaS) solution.,0,1,,Operational,,fully cloud-hosted,A only
+EX-026,PostCutoff,HC,Integrate with Laserfiche Document Management System,0,1,,Operational,,Integrate with Laserfiche Document Management System,B only
+EX-027,PostCutoff,MSU,"While the vendor is responsible for implementing system updates, MSU must have the ability to apply upgrades on its own timeline to align with institutional needs.",0,1,,Maintainability,,apply upgrades on its own timeline,A only
+EX-028,PostCutoff,GCAD,All data at rest must be encrypted using industry-accepted methods and key management practices.,0,1,,Security,,encrypted,A only
+EX-030,PostCutoff,GCAD,"The architecture must support horizontal and/or vertical scalability to accommodate growth in parcels, users, and processing needs.",0,1,,Performance,,horizontal and/or vertical scalability,A only
+EX-031,PostCutoff,HC,"Ability to display date, time and user for any update of record",1,0,,,"display date, time and user",,A only
+EX-033,PostCutoff,MSU,This mobile receipt upload functionality must also be available offline when the user is not connected to the internet.,1,1,,Operational,mobile receipt upload,available offline,A only
+EX-034,PostCutoff,HC,"Ability to connect on a desktop, tablet, laptop or mobile phone",0,1,,Maintainability,,"connect on a desktop, tablet, laptop or mobile phone","A+B, adjudicated"
+EX-036,PostCutoff,MSU,Documents and files submitted through the application should be easily downloadable by any user with required authorization.,1,1,,Security,downloadable,with required authorization,A only
+EX-037,PostCutoff,MSU,"The platform must integrate with financial and accounting systems to enable real-time tracking, automated reimbursements, and reconciliation.",0,1,,Operational,,integrate with financial and accounting systems,"A+B, adjudicated"
+EX-038,PostCutoff,LAT,Ability to give customer access to add family members and update contact information; but limit other types of changes to the account.,1,1,,Security,add family members and update contact,limit other types of changes to the account,B only
+EX-039,PostCutoff,GCAD,"The system must provide GCAD with the ability to run ad hoc queries and produce exports via ODBC, JDBC, or other secure methods approved by GCAD.",1,1,,Security,run ad hoc queries and produce exports,secure methods,A only
+EX-040,PostCutoff,LAT,"Operators are required to log-in only once and have access to all specific areas of the system, based on access and security rights assigned to that user.",1,1,,Security,log-in only once,based on access and security rights,A only
+EX-042,PostCutoff,HC,"Search feature shall be user-friendly, fully featured, and robust",1,1,,Usability,Search feature,user-friendly,A only
+EX-043,PostCutoff,MSU,"Most reports should be viewable on-screen with options to download in Excel, PDF, CSV, DOC/RTF, or access via API.",1,0,,,options to download,,A only
+EX-045,PostCutoff,GCAD,"The system, including public-facing portals, must substantially comply with WCAG 2.1 AA accessibility guidelines.",0,1,,Usability,,WCAG 2.1 AA,A only
+EX-046,PostCutoff,LAT,"System must allow for customer / household credit balances, with the ability to apply that credit in any module.",1,0,,,apply that credit in any module,,A only
+EX-048,PostCutoff,HC,Allow a secure environment via VPN or other secured methodology to access participant data,1,1,,Security,access participant data,VPN,A only
+EX-049,PostCutoff,GCAD,"Support electronic protest filing by property owners and agents, including the ability to attach supporting documents.",1,0,,,electronic protest filing,,A only
+EX-050,PostCutoff,HC,Allow for multiple users to enter data simultaneously for the same participant,1,1,,Performance,enter data,simultaneously,B only
+EX-051,PostCutoff,MSU,"The system must be cloud-based, with a strong data security and backup plan.",0,1,,Security,,strong data security and backup plan,A only
+EX-052,PostCutoff,GCAD,"Allow GCAD to define and maintain market models, schedules, and calibration parameters with effective dates and versioning.",1,0,,,define and maintain market models,,A only
+EX-054,PostCutoff,MSU,The system must integrate seamlessly with MSU’s existing Ellucian Banner system and have real-time integration options available.,0,1,,Operational,,integrate seamlessly with MSU’s existing Ellucian Banner system,"A, corrected by guideline"
+EX-055,PostCutoff,HC,Allow multiple departments and programs to enter data without system malfunction,1,1,,Reliability,enter data,without system malfunction,"A+B, agreed"
+EX-056,PostCutoff,LAT,System must allow for individual members to be transferred between family households without loss of data or history.,1,1,,Reliability,transferred between family households,without loss of data or history,B only
+EX-057,PostCutoff,LAT,"Export reports in a variety of formats, including PDF, Excel, Word and CSV files.",1,0,,,Export reports,,A only
+EX-058,PostCutoff,GCAD,The system must maintain referential integrity and provide controls to prevent orphaned or inconsistent data relationships.,0,1,,Reliability,,referential integrity,A only
+EX-060,PostCutoff,HC,Installation must follow industry standard with milestones and acceptance testing,0,0,,,,,A only
+EX-061,PostCutoff,MSU,"There should be no restrictions on the number of users, and at a minimum, the system must be able to accommodate MSU’s estimated staff and student population of 30,000 or more.",0,1,,Performance,,"30,000 or more",A only
+EX-062,PostCutoff,GCAD,Provide clear audit logs of portal activity linked to the corresponding appraisal records.,0,1,,Security,, audit logs of portal activity,B only
+EX-063,PostCutoff,MSU,"Report access must be clearly defined based on user roles, such as Business Author, Consumer, and Manager, ensuring appropriate data visibility.",0,1,,Security,,based on user roles,A only
+EX-064,PostCutoff,MSU,"The system must be a hosted, Software-as-a-Service (SaaS) solution to ensure scalability, accessibility, and reliability.",0,1,,Operational,,"hosted, Software-as-a-Service","A+B, agreed"
+EX-066,PostCutoff,LAT,The application software must be compatible with Windows 7 or later.,0,1,,Operational,,Windows 7 or later,A only
+EX-067,PostCutoff,MSU,"The system should incorporate Optical Character Recognition (OCR) technology to extract relevant data automatically, minimizing manual entry.",1,0,,,extract relevant data automatically,,A only
+EX-069,PostCutoff,HC,Secure API access for dashboards and combining information across data sources,1,1,,Security,API access for dashboards,Secure,A only
+EX-070,PostCutoff,MSU,It must also support Single Sign-On (SSO) functionality and be fully compatible with MSU’s Multi-Factor Authentication (MFA) requirements to enhance security and streamline user access.,0,1,,Security,,Single Sign-On (SSO)  Multi-Factor Authentication (MFA) requirements to enhance security,"A+B, adjudicated"
+EX-072,PostCutoff,HC,Interface is designed with user experience in mind.,0,1,,Usability,,user experience,A only
+EX-073,PostCutoff,HC,Ability to add users as new employees are onboarded,1,0,,,add users,,A only
+EX-075,PostCutoff,LAT,Ability to check for duplicate customer files when entering new customer records.,1,0,,,check for duplicate customer files,,A only
+EX-076,PostCutoff,HC,Integrate with Emphasys Elite to prepopulate demographic information,0,1,,Operational,,Integrate with Emphasys Elite,"A+B, adjudicated"
+EX-078,PostCutoff,GCAD,The system must be accessible via a modern web browser (Google Chrome is required; support for other browsers is preferred).,0,1,,Operational,,Google Chrome is required,A only
+EX-079,PostCutoff,MSU,The system will need to be able to allow authorized users to monitor and approve/deny requests and offer commentary or feedback that is viewable by the requestee.,1,1,,Security,monitor and approve/deny requests and offer commentary or feedback,allow authorized users ,"A+B, adjudicated"
+EX-080,PostCutoff,GCAD,"Support market (sales comparison) approaches, including comparable selection, automated adjustment grids, and reconciliation tools.",1,0,,,Support market,,B only
+EX-081,PostCutoff,HC,"Navigation must be intuitive. Client information, tracking and reports are easily accessed",0,1,,Usability,,Navigation must be intuitive,A only
+EX-082,PostCutoff,GCAD,"Provide ARB scheduling tools to manage dockets, panels, hearing times, and room assignments.",1,0,,,scheduling tools,,"A+B, agreed"
+EX-083,PostCutoff,LAT,Ability to merge duplicate customer records (with full history merge).,1,0,,,merge ,,B only
+EX-084,PostCutoff,HC,Ability to store and update ongoing case notes,1,0,,,store and update ongoing case notes,,A only
+EX-085,PostCutoff,HC,"Ability to receive notifications for upcoming appointments, events, documents needed, etc.",1,0,,,receive notifications,,"A+B, agreed"
+EX-086,PostCutoff,MSU,"Users must be able to upload documents and images in multiple formats, including but not limited to .png, .jpg, .jpeg, .pdf, .tif, and .tiff.",1,0,,,upload documents and images ,,B only
+EX-087,PostCutoff,GCAD,"Vendor must convert at least ten (10) years of historical appraisal data, or an alternate period proposed by the vendor and approved by GCAD.",0,0,,,,,A only
+EX-088,PostCutoff,HC,Ability to transfer a case from one staff member to another while still maintaining the work done by the previous staff member,1,0,,,transfer a case,,"A+B, agreed"
+EX-089,PostCutoff,GCAD,The system must support multi-factor authentication (MFA) for administrative and remote access and must allow GCAD to enforce password and session policies.,0,1,,Security,, enforce password and session policies  multi-factor authentication (MFA),B only
+EX-090,PostCutoff,GCAD,"Automatically calculate replacement cost new (RCN), replacement cost new less depreciation (RCNLD), and contributory value for improvements, with full audit traceability.",1,1,,Security,Automatically calculate,full audit traceability,A only
+EX-091,PostCutoff,GCAD,"Automatically create and route workflow items when protests are filed, including informal and formal hearing preparation tasks.",1,0,,,create and route workflow items,,A only
+EX-093,PostCutoff,GCAD,The system must be usable with common screen readers and assistive technologies.,0,1,,Usability,,screen readers and assistive technologies,A only
+EX-094,PostCutoff,HC,Administration of the system is easily configurable in a ‘point and click’ style interface.,1,1,,Usability,configurable,point and click,A only
+EX-095,PostCutoff,HC,Supports Single Sign On.,0,1,,Security,,Sign On,B only
+EX-096,PostCutoff,LAT,Ability to set start and end dates / times for program registration.,1,0,,,set start and end dates / times,,A only
+EX-097,PostCutoff,LAT,Payment plan with automated processing of future payments on a pre-defined schedule.,1,0,,,automated processing of future payments,,"A+B, agreed"
+EX-099,PostCutoff,LAT,Admin has the ability to temporarily reset password which forces user to change password at next login.,1,1,,Security,temporarily reset password,forces user to change password,A only
+EX-100,PostCutoff,LAT,Customer can view previous payments and receipts.,1,0,,,view previous payments and receipts,,A only
+EX-101,PostCutoff,LAT,Online help is available from all software screens.,0,1,,Usability,,Online help,B only

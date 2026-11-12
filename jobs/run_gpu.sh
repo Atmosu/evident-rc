@@ -19,4 +19,7 @@ $PY src/evident.py $C --fold eval --n 5 --k 8 --seed 43
 $PY src/evident.py $C --fold eval --n 5 --k 8 --seed 44
 $PY src/faithfulness.py results/evident/$(basename $M)_hf_k8_n10_T0.7_s42_p443b9c_constrained_q4_eval --model $M --quant 4bit --n 5
 for m in minilm bert roberta; do $PY src/transformer_baselines.py --model $m; $PY src/transformer_baselines.py --model $m --folds itrust; done
+$PY src/evident.py $C --fold postcutoff --n 10 --k 8
+$PY src/evident.py $C --fold postcutoff --n 5 --k 8 --variant noevidence
+for m in minilm bert roberta; do $PY src/transformer_baselines.py --model $m --folds postcutoff; done
 $PY src/contamination.py --model $M --quant 4bit

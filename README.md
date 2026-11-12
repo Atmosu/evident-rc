@@ -11,6 +11,10 @@ Code, prompts, per-requirement predictions and analysis scripts for the paper "S
 
 These recompute the RQ1 and RQ2 tables from the saved per-requirement predictions in `results/`.
 
+Post-cutoff test set (82 requirements quoted from four public software tenders, October 2024 to December 2025; labels in `data/external/post_cutoff_labels.csv`, two annotators on 13 items with disagreements settled by the guideline, see `annotation/post_cutoff_adjudication_log.csv`):
+
+    .venv/bin/python src/compare_postcutoff.py
+
 ## Re-run the experiments (one CUDA GPU with at least 10 GB, about 7 hours)
 
 Download the datasets into `data/` (PROMISE-reclass from github.com/tobhey/NoRBERT at 00c2f566, Dalpiaz-4 from github.com/explainable-re/RE-2019-Materials at 23ff85b1, iTrust from github.com/tobhey/finegrained-traceability at 197cf2f3, cloned as `data/NoRBERT`, `data/dalpiaz`, `data/ftlr`), then run:
@@ -27,6 +31,7 @@ Download the datasets into `data/` (PROMISE-reclass from github.com/tobhey/NoRBE
 | `src/faithfulness.py`, `src/contamination.py` | Masking and sufficiency tests; memorisation probe |
 | `src/metrics.py`, `src/analyze_llm.py`, `src/compare_*.py`, `src/rq2_compare.py` | Metrics, paired bootstrap, Holm correction |
 | `results/` | Per-requirement predictions and result tables |
-| `annotation/` | Annotation sheets |
+| `annotation/` | Annotation sheets, post-cutoff sources and adjudication log |
+| `data/external/` | Post-cutoff requirements and labels |
 
 Datasets are not redistributed; download them from the original authors' repositories (GPL-3.0) as described above. The LLM is `unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit` (revision f15c379fb32b), run with 4-bit weights.

@@ -24,7 +24,8 @@ import evident as ev
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "results/contamination"
 NAMES = {"PROMISE": "the PROMISE NFR dataset of software requirements (tera-PROMISE repository)",
-         "Dalpiaz-4": "the requirements datasets published by Dalpiaz et al. (Dronology, Leeds, ReqView, WASP)"}
+         "Dalpiaz-4": "the requirements datasets published by Dalpiaz et al. (Dronology, Leeds, ReqView, WASP)",
+         "PostCutoff": "a public request for proposals for a software system"}
 GUIDED = ("You are given the first part of a requirement from {name}. Complete the second part exactly as it "
           "appears in the dataset. Answer with the second part only.\nFirst part: {first}")
 GENERAL = ("Complete the following software requirement with a plausible ending. Answer with the rest of the "
@@ -75,9 +76,11 @@ def complete(llm, prompts, max_new=60):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--model", required=True)
     ap.add_argument("--quant", choices=["none", "4bit"], default="none"); ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--only", default="", help="comma-separated set names")
     a = ap.parse_args(); OUT.mkdir(parents=True, exist_ok=True)
     llm = ev.HFBackend(a.model, 42, constrained=False, quant=a.quant)
-    sets = {"PROMISE": D.promise(), "Dalpiaz-4": D.dalpiaz_public()}
+    ap_sets = {"PROMISE": D.promise, "Dalpiaz-4": D.dalpiaz_public, "PostCutoff": D.post_cutoff}
+    sets = {k: f() for k, f in ap_sets.items() if not a.only or k in a.only.split(",")}
     summary = {"model": a.model, "quant": a.quant, "decoding": "greedy", "guided": GUIDED, "general": GENERAL, "sets": {}}
     rng = np.random.default_rng(42)
     for name, df in sets.items():
@@ -108,7 +111,7 @@ def main():
                                  "exact_guided": int(r.exact_guided.sum()), "exact_general": int(r.exact_general.sum()),
                                  "secs": round(time.time() - t0, 1)}
         print(name, json.dumps(summary["sets"][name]), flush=True)
-    (OUT / "summary.json").write_text(json.dumps(summary, indent=1))
+    (OUT / ("summary.json" if not a.only else f"summary_{a.only.replace(',', '_')}.json")).write_text(json.dumps(summary, indent=1))
 
 
 if __name__ == "__main__":

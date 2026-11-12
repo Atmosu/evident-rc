@@ -151,7 +151,7 @@ def run_split(name, cfg, tok, tr, va, te, dev, seed, epochs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", choices=sorted(CONFIGS), required=True)
-    ap.add_argument("--folds", choices=["eval", "dalpiaz", "itrust", "all"], default="all")
+    ap.add_argument("--folds", choices=["eval", "dalpiaz", "itrust", "postcutoff", "all"], default="all")
     ap.add_argument("--epochs", type=int, default=0); ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--limit", type=int, default=0, help="smoke test: number of test folds and items per split")
     a = ap.parse_args()
@@ -169,8 +169,8 @@ def main():
             r, i = run_split(p, cfg, tok, cut(tr), cut(va), cut(te), dev, a.seed, epochs); rows.append(r); infos.append(i)
         pd.concat(rows).to_csv(OUT / f"{a.model}_lopo.csv", index=False)
         (OUT / f"{a.model}_lopo_meta.json").write_text(json.dumps({**meta, "folds": infos}, indent=1))
-    for ext, load in (("dalpiaz", D.dalpiaz_public), ("itrust", D.itrust)):
-        if a.folds not in (ext, "all") or (ext == "itrust" and a.folds == "all"): continue
+    for ext, load in (("dalpiaz", D.dalpiaz_public), ("itrust", D.itrust), ("postcutoff", D.post_cutoff)):
+        if a.folds not in (ext, "all") or (ext in ("itrust", "postcutoff") and a.folds == "all"): continue
         va = P[P.project == "P02"].reset_index(drop=True); tr = P[P.project != "P02"].reset_index(drop=True)
         te = load().reset_index(drop=True)
         r, i = run_split(ext, cfg, tok, cut(tr), cut(va), cut(te), dev, a.seed, epochs)
