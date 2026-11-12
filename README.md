@@ -1,6 +1,6 @@
 # EVIDENT-RC: anonymous replication package
 
-Code, prompts, per-requirement predictions and analysis scripts for the paper "Show the Evidence: Evidence-Verified LLM Classification and Calibrated Confidence for Mixed Functional and Quality Requirements on Unseen Projects" (under double-blind review).
+Code, prompts, per-requirement predictions and analysis scripts for the paper "An Evidence-Quoting LLM as a Second Reader for Mixed Functional and Quality Software Requirements: Evaluation on Held-Out Projects" (under double-blind review).
 
 ## Check the results (CPU, a few minutes, no GPU)
 
