@@ -29,4 +29,4 @@ Download the datasets into `data/` (PROMISE-reclass from github.com/tobhey/NoRBE
 | `results/` | Per-requirement predictions and result tables |
 | `annotation/` | Annotation sheets |
 
-Datasets are not redistributed; `--setup` fetches them from the original authors' repositories (GPL-3.0). The LLM is `unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit` (revision f15c379fb32b), run with 4-bit weights.
+Datasets are not redistributed; download them from the original authors' repositories (GPL-3.0) as described above. The LLM is `unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit` (revision f15c379fb32b), run with 4-bit weights.
