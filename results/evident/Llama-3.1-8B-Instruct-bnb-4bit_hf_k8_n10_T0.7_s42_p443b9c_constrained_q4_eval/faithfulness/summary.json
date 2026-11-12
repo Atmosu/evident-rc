@@ -1,0 +1,113 @@
+{
+ "model": "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+ "run": "Llama-3.1-8B-Instruct-bnb-4bit_hf_k8_n10_T0.7_s42_p443b9c_constrained_q4_eval",
+ "n": 5,
+ "temperature": 0.7,
+ "folds": {
+  "P01": {
+   "items": 28,
+   "queries": 157,
+   "gen_s": 498.6
+  },
+  "P03": {
+   "items": 79,
+   "queries": 406,
+   "gen_s": 1257.6
+  },
+  "P05": {
+   "items": 73,
+   "queries": 370,
+   "gen_s": 1146.5
+  },
+  "P06": {
+   "items": 73,
+   "queries": 403,
+   "gen_s": 1264.0
+  },
+  "P07": {
+   "items": 23,
+   "queries": 131,
+   "gen_s": 396.1
+  },
+  "P08": {
+   "items": 93,
+   "queries": 516,
+   "gen_s": 1577.3
+  },
+  "P09": {
+   "items": 24,
+   "queries": 132,
+   "gen_s": 405.0
+  },
+  "P10": {
+   "items": 53,
+   "queries": 248,
+   "gen_s": 751.6
+  },
+  "P11": {
+   "items": 13,
+   "queries": 76,
+   "gen_s": 235.0
+  },
+  "P12": {
+   "items": 22,
+   "queries": 145,
+   "gen_s": 456.4
+  },
+  "P13": {
+   "items": 19,
+   "queries": 121,
+   "gen_s": 382.5
+  },
+  "P14": {
+   "items": 16,
+   "queries": 94,
+   "gen_s": 284.1
+  },
+  "P15": {
+   "items": 12,
+   "queries": 72,
+   "gen_s": 233.9
+  }
+ },
+ "overall": {
+  "F": {
+   "tested": 413,
+   "span_mask": {
+    "drop_rate": 0.114,
+    "n": 413,
+    "undecided": 0
+   },
+   "random_mask": {
+    "drop_rate": 0.073,
+    "n": 413,
+    "undecided": 0
+   },
+   "sufficiency": {
+    "kept_rate": 0.768,
+    "n": 413,
+    "undecided": 0
+   },
+   "full_mask_label_rate": 0.652
+  },
+  "Q": {
+   "tested": 368,
+   "span_mask": {
+    "drop_rate": 0.158,
+    "n": 368,
+    "undecided": 0
+   },
+   "random_mask": {
+    "drop_rate": 0.071,
+    "n": 368,
+    "undecided": 0
+   },
+   "sufficiency": {
+    "kept_rate": 0.829,
+    "n": 368,
+    "undecided": 0
+   },
+   "full_mask_label_rate": 0.812
+  }
+ }
+}

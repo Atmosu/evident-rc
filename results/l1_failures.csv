@@ -1,0 +1,1045 @@
+setting,model,req_id,project,text,gold,pred,orig_class
+lopo,B1,P01-005,P01,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P01-007,P01,The product shall respond fast to keep up-to-date data in the display.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B1,P01-008,P01,The system shall have a MDI form that allows for the viewing of the graph and the data table.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P01-009,P01,The system shall display Events in a vertical table by time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P01-010,P01,The system shall display the Events in a graph by time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P01-013,P01,The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P01-015,P01,The top 1/4 of the table will hold events that are to occur sequentially.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P01-018,P01,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P01-019,P01,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.,"F=1,Q=1","F=1,Q=0",F
+lopo,B1,P01-021,P01,The system shall offer a display of all the Events in the exercise.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P01-022,P01,The system shall filter data by: Venues and Key Events.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P01-024,P01,The system shall display the local and exercise time in separate clocks,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P02-037,P02,The search results shall be returned no later 30 seconds after the user has entered the search criteria,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P02-040,P02,The product shall synchronize contacts and appointments in an acceptable time.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P02-041,P02,The product shall synchronize with the office system every hour.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P02-043,P02,Out of 1000 accesses to the system the system is available 999 times.,"F=0,Q=1","F=1,Q=1",A
+lopo,B1,P02-046,P02,The product shall retain user preferences in the event of a failure.,"F=1,Q=0","F=1,Q=1",FT
+lopo,B1,P02-047,P02,100% of saved user preferences shall be restored when system comes back online.,"F=1,Q=1","F=0,Q=1",FT
+lopo,B1,P02-048,P02,The product shall be able to support multiple remote users,"F=1,Q=0","F=0,Q=1",SC
+lopo,B1,P02-054,P02,Only registered realtors shall be able to access the system.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P02-055,P02,Every user of the system shall be authenticated and authorized.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P02-064,P02,The realtor shall be notified of new client appointments after automatic synchronization with office system,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P02-065,P02,The realtor shall be able to retrieve a map showing property locations for a specified area,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-070,P03,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,"F=0,Q=1","F=1,Q=0",US
+lopo,B1,P03-073,P03,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,"F=1,Q=1","F=0,Q=1",US
+lopo,B1,P03-083,P03,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,"F=1,Q=1","F=0,Q=1",SC
+lopo,B1,P03-097,P03,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P03-098,P03,The system shall protect private information in accordance with the organization’s information policy.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P03-101,P03,A cohort shall be associated to one Program of Study offered by the department.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-102,P03,Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-103,P03,Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-104,P03,Students added to a cohort shall be eligible for the cohort’s Program of Study.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-105,P03,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-106,P03,For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-107,P03,For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-108,P03,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-109,P03,Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-110,P03,Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system identified by start month and year.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-111,P03,Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-112,P03,A class shall be either a non-clinical class or a clinical class.,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P03-113,P03,A non-clinical class shall specify the course name lecture room requirements and instructor needs.,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P03-114,P03,A clinical class shall specify the course name lecture room requirements clinical site needs lecture instructor needs and clinical lab instructor needs.,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P03-115,P03,Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-116,P03,A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P03-117,P03,Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-118,P03,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members’ planning purposes.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-119,P03,The report of needed classes shall include (but not be limited to) classes to be offered number of sections needed number of labs needed and room types needed.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-120,P03,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-121,P03,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-123,P03,Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-124,P03,A clinical lab section shall include the clinical site name the class instructor day and time of the lab.,"F=0,Q=0","F=1,Q=1",F
+lopo,B1,P03-125,P03,Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-128,P03,Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-129,P03,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-133,P03,The system shall be able to display a printable summary for individual clinical labs which will include (but not be limited to) class name class number lab section listing of students enrolled instructor day(s) time and location.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-135,P03,The system shall be able to display a printable summary of the system log.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P03-136,P03,The system shall contain contact information (e-mail and phone number) for all people relevant to the system including (but not limited to) staff members students lecture instructors clinical lab instructors and clinical site administrators.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-137,P03,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-138,P03,The system will notify affected parties for routine communication purposes including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-143,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier program of study preferred sequence of classes and quarters that a cohort will be taking specific classes.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-144,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name and required classes for that Program of Study.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P03-147,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-150,P04,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,"F=0,Q=1","F=1,Q=0",US
+lopo,B1,P04-163,P04,Only users with Update access must be able to initiate dispute requests.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P04-167,P04,All additions of new users and modifications to user’s access shall be recorded on the User Report.,"F=1,Q=0","F=0,Q=1",SE
+lopo,B1,P04-168,P04,If a user account is revoked it can only be re-instantiated by the System Administrator.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P04-169,P04,Only the System Administrator shall be able to reset a revoked user logon account,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P04-170,P04,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P04-171,P04,All updates to data files or database must be initiated from the Disputes System.,"F=0,Q=0","F=0,Q=1",SE
+lopo,B1,P04-177,P04,All actions that modify an existing dispute case must be recorded in the case history.,"F=1,Q=1","F=0,Q=1",L
+lopo,B1,P04-183,P04,The Disputes System shall provide update access capability for authorized users of the application.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P04-184,P04,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-185,P04,The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-187,P04,The Disputes System must allow the user to create three unique types of ticket retrieval requests. The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-188,P04,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P04-189,P04,The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information the dispute case number the type of retrieval requested (copy original or portfolio) and the date that the merchant response is due.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-191,P04,The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information the dispute case number the type of chargeback requested (pending or immediate) and the date that the merchant response is due.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-192,P04,The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P04-193,P04,The Disputes System shall accurately provide a list of possible reason codes for a given transaction. The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to according to the business rules defined for the Disputes System.,"F=1,Q=1","F=1,Q=0",F
+lopo,B1,P04-194,P04,The Disputes System must provide the ability to view existing dispute cases.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-196,P04,A list of all disputes cases that meet the entered search criteria must be provided to the user. The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list. For example all open cases will be yellow and all closed cases will be gray.,"F=1,Q=1","F=1,Q=0",F
+lopo,B1,P04-197,P04,The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-198,P04,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P04-200,P04,For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process a case activity will be generated. Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P04-201,P04,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P04-202,P04,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-216,P05,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B1,P05-218,P05,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P05-219,P05,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P05-230,P05,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P05-231,P05,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P05-232,P05,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P05-234,P05,One insurance company shall not be able to view another insurance companys claim data.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P05-236,P05,The system shall prevent malicious attacks including denial of service.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P05-240,P05,The user shall search for the preferred repair facility using vehicle vehicle location and radius in miles,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-241,P05,The vehicle data shall include vehicle year make and model,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P05-242,P05,The vehicle location shall include street address city state and zipcode,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P05-243,P05,The system shall resolve the zipcode for the street address city and state if zipcode is unknown.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-244,P05,The search radius shall be between 1 and 30 miles,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P05-245,P05,The system shall locate the preferred repair facility with the highest ratings for the input criteria,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-246,P05,The adjuster shall enter the preferred repair facility on the estimate assignment.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-247,P05,The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-248,P05,The preferred repair facility shall be returned to the user.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-250,P05,The estimator shall search for available recycled parts using damaged vehicle parts information.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-251,P05,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-252,P05,The system shall search for available recycled parts for the supplied vehicle parts and suppliers.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-253,P05,The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-254,P05,The system shall retain the available recycled parts and suppliers returned from the search.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-255,P05,The available recycled parts information and their suppliers shall be returned to the user.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-256,P05,The estimator shall apply selected recycled parts to the collision estimate.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-257,P05,The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-259,P05,The adjuster shall request a recycled parts audit of the collision estimate.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-260,P05,The recycled parts search results provided to the estimator shall be retrieved by the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-262,P05,The audit report shall include the total number of recycled parts used in the estimate.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-264,P05,The audit report shall include the percentage of available recycled parts used in the estimate,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-265,P05,The audit report shall include the total score of the audit which sums the indivual line items.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-266,P05,The audit report shall be displayed to the user.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-267,P05,The audit report shall be available to other adjusters at later points in time.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-269,P05,The current repair facility ratings shall be displayed to the user.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-270,P05,The system will display a blank set of ratings if there are not ratings yet defined.,"F=1,Q=0","F=0,Q=0",F
+lopo,B1,P05-272,P05,The ratings shall be from a scale of 1-10,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P05-273,P05,The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts,"F=0,Q=0","F=0,Q=1",F
+lopo,B1,P05-274,P05,The user shall select to save the preferred repair facility ratings.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P05-275,P05,The preferred repair facility ratings shall be saved by the system.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-285,P06,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,"F=0,Q=1","F=1,Q=1",US
+lopo,B1,P06-286,P06,The product shall allow the user to select a chosen language from one of the target market countries.,"F=1,Q=1","F=1,Q=0",US
+lopo,B1,P06-287,P06,The product shall allow for customization of start page and views preferences.,"F=0,Q=1","F=1,Q=0",US
+lopo,B1,P06-290,P06,The product shall allow for intuitive searching of available conference rooms.,"F=1,Q=1","F=1,Q=0",US
+lopo,B1,P06-294,P06,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,"F=1,Q=1","F=0,Q=1",FT
+lopo,B1,P06-297,P06,The product shall be expected to operate for at least 5 years for each customer installation.,"F=0,Q=1","F=1,Q=1",SC
+lopo,B1,P06-316,P06,The product shall ensure that the database’s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,"F=0,Q=1","F=1,Q=0",SE
+lopo,B1,P06-323,P06,The product shall record meeting entries.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-324,P06,The product will notify employees of meeting invitations.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-325,P06,The product shall have the ability to send meeting reminders to employees.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-327,P06,The product will record meeting acknowledgements.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-328,P06,The product shall store new conference rooms.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-329,P06,The product shall update existing conference rooms.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-330,P06,The product will be able to delete conference rooms.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-331,P06,The product shall be able to store new room equipment.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-332,P06,The product will update existing room equipment.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-333,P06,The product shall be able to delete room equipment.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-335,P06,Each time a conference room is reserved the conference room schedule shall be updated to reflect the time and date of the reservation.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-336,P06,The product shall record the transportation status of equipment reserved.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-338,P06,The product shall record updated meeting agendas.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-339,P06,The product shall send a meeting confirmation to the meeting organizer.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-340,P06,The product shall display room equipment according to search parameters.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-341,P06,The product shall display conference rooms according to search parameters.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-342,P06,The product shall record different meeting types.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P06-343,P06,The product shall record all the equipment that has been reserved.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-344,P06,The product shall notify building personnel of equipment transport requests.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-346,P06,The product shall be able to send meeting notifications via different kinds of end-user specified methods.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P06-347,P06,The product shall have a customizable Look and Feel.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P07-350,P07,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P07-351,P07,The System shall allow for a minimum of 6 users to work at the same time.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B1,P07-352,P07,The System shall utilize currently owned computer equipment.,"F=0,Q=1","F=1,Q=0",O
+lopo,B1,P07-357,P07,The System shall not require additional third party licenses resulting in royalty fees.,"F=0,Q=1","F=1,Q=1",O
+lopo,B1,P07-359,P07,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P07-360,P07,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P07-362,P07,Product formulas shall allow use of semi-products which have own formulas.,"F=1,Q=0","F=0,Q=0",F
+lopo,B1,P07-364,P07,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P07-365,P07,Formula substitutionary ingredients shall be kept in persisted order,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P07-366,P07,Product shall allow entering storing and modifying product menus used by POS terminals.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P07-368,P07,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,"F=0,Q=1","F=1,Q=1",F
+lopo,B1,P07-369,P07,PME Subsystem shall allow for a product to exist in more than one submenu,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P07-371,P07,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P07-372,P07,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P08-373,P08,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-374,P08,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-375,P08,System shall let customers register on the website as a “pay as you go” user in under 5 minutes.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-376,P08,System shall let customers register on the website as a “unlimited movie subscriber” user in under 10 minutes.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-377,P08,System shall let existing customers log into the website with their email address and password in under 5 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-378,P08,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-379,P08,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-380,P08,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-381,P08,System shall let the administrator add/remove categories on the website in under 5 minutes.,"F=1,Q=1","F=0,Q=0",PE
+lopo,B1,P08-383,P08,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-389,P08,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,"F=1,Q=1","F=0,Q=1",US
+lopo,B1,P08-393,P08,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,"F=1,Q=1","F=0,Q=1",US
+lopo,B1,P08-399,P08,While streaming a movie buffering should only occur if there is latency in the user’s connection.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B1,P08-403,P08,All movies shall be streamed on demand at any time of the day.,"F=1,Q=1","F=0,Q=1",A
+lopo,B1,P08-405,P08,The website shall continue to operate if the payment gateway goes down.,"F=0,Q=1","F=0,Q=0",FT
+lopo,B1,P08-407,P08,The streaming server will support a maximum of 700 movies new servers can be added to support more movies.,"F=0,Q=1","F=1,Q=1",SC
+lopo,B1,P08-419,P08,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-420,P08,Izogn Administrator must be able to add new products to the website within 2 minutes.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P08-421,P08,The system will provide a 24 hour 800 toll free number for support to its customers.,"F=0,Q=1","F=1,Q=1",A
+lopo,B1,P08-422,P08,The website will provide a help section with answers and solutions to common problems.,"F=1,Q=0","F=1,Q=1",US
+lopo,B1,P08-428,P08,Only administrators can activate a pre-paid card.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P08-431,P08,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P08-433,P08,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P08-440,P08,The website shall not be offensive to religious or ethnic groups.,"F=0,Q=1","F=1,Q=0",LF
+lopo,B1,P08-458,P08,Pre-paid cards shall be distributed via email or via a printed paper card.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P08-459,P08,Only registered customers can purchase streaming movies.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P08-460,P08,Movies can only be streamed if the customer has purchased a movie and is within the 2-day time period to stream the movie.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P08-461,P08,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P08-462,P08,All streaming movie sales will be logged in the database and accessible by the administrator.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P08-463,P08,All registered customer information shall be stored and maintained in the database even after the customer cancels their account.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P08-464,P08,Daily usage statistics should be logged and accessible by the administrator.,"F=1,Q=1","F=0,Q=1",F
+lopo,B1,P09-468,P09,For leads that process longer than 25 seconds the system will record the event and duration,"F=1,Q=0","F=1,Q=1",PE
+lopo,B1,P09-474,P09,The vendor will verify the invalid lead.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-475,P09,Vendor will submit a credit validation record to be applied to the enterprise billing system.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-476,P09,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-477,P09,The leads washing functionality will validate all leads received by the web service for valid data,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-478,P09,The leads washing functionality will insert all leads captured by the web service.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-479,P09,If the leads score falls within the high average score then it will be process by the ARA functionality.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-480,P09,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-481,P09,If the leads score falls within the low average then it will be returned to the supplying vendor,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-483,P09,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-484,P09,The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-485,P09,The leads washing functionality will have an interface in which lead data parameters can be maintained.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-486,P09,The leads washing functionality will verify the users authentication and rights to make parameter updates.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-487,P09,The leads washing functionality will store any potential lead duplicates returned by the enterprise system.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P09-488,P09,Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-491,P10,The product shall display the grids within a circle as a view from a periscope.,"F=0,Q=1","F=1,Q=1",LF
+lopo,B1,P10-492,P10,The product shall display each type of ship in a grid using an image of the specific type of ship.,"F=0,Q=1","F=1,Q=1",LF
+lopo,B1,P10-493,P10,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,"F=1,Q=1","F=0,Q=1",LF
+lopo,B1,P10-494,P10,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,"F=1,Q=1","F=0,Q=1",LF
+lopo,B1,P10-495,P10,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,"F=1,Q=1","F=0,Q=1",LF
+lopo,B1,P10-496,P10,When a ship is sunk the product shall simulate the sound of a sinking ship.,"F=1,Q=1","F=0,Q=1",LF
+lopo,B1,P10-503,P10,The product shall provide players no access to information that might reveal the identity of another player,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P10-505,P10,The product shall maintain a list of players.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-509,P10,The product shall make inactive players unavailable for selection from the list of players.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-510,P10,The product shall remove players who have been inactive for 24 hours from the list of players.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-514,P10,The product shall prevent a player from viewing the offensive or defensive grids of the other player.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-519,P10,The product shall prevent the player from overlapping ships on their grid.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-520,P10,When both players have positioned their 5 ships on their defensive grids the product shall define the status of each player for the first turn.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-521,P10,For each turn the product shall identify one player as offensive status and one player as defensive status.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-522,P10,The product shall maintain the status of each player for a turn either offensive or defensive.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-523,P10,At the start of each turn the product shall notify each player of his or her status.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-525,P10,For each shot the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-527,P10,For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-528,P10,For each shot the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-529,P10,When the hit results in sinking a ship the product shall notify the players that the ship was sunk.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-530,P10,When the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-531,P10,When the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-532,P10,When the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-534,P10,If the shot was marked as a miss the product shall change the status of the offensive player to defensive,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-535,P10,If the shot was marked as a miss the product shall change the status of the defensive player to offensive,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-536,P10,The product shall continue to assign turns until the game is ended.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P10-537,P10,The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player’s ships which had not been previously marked as sunk.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-538,P10,The product shall allow a player to end a game at any time during the game.,"F=1,Q=0","F=1,Q=1",F
+lopo,B1,P10-539,P10,When a game is ended the product shall notify the players that the game is ended.,"F=1,Q=0","F=0,Q=1",F
+lopo,B1,P11-551,P11,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P11-552,P11,The product shall ensure that only supervisors can enter a caller’s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P11-553,P11,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B1,P12-556,P12,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,"F=1,Q=1","F=0,Q=1",LF
+lopo,B1,P12-558,P12,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,"F=1,Q=1","F=0,Q=1",US
+lopo,B1,P12-559,P12,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,"F=1,Q=1","F=0,Q=1",US
+lopo,B1,P12-560,P12,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),"F=1,Q=1","F=0,Q=1",US
+lopo,B1,P12-563,P12,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P12-565,P12,The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B1,P12-576,P12,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P12-577,P12,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P13-581,P13,The interface must summarize the data in a fashion that’s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,"F=1,Q=1","F=0,Q=1",LF
+lopo,B1,P13-586,P13,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),"F=0,Q=0","F=0,Q=1",US
+lopo,B1,P13-589,P13,The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.,"F=0,Q=1","F=1,Q=0",SC
+lopo,B1,P13-590,P13,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,"F=0,Q=1","F=1,Q=0",SC
+lopo,B1,P13-592,P13,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,"F=1,Q=1","F=0,Q=1",O
+lopo,B1,P13-596,P13,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user’s computer.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B1,P14-601,P14,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,"F=1,Q=0","F=0,Q=1",LF
+lopo,B1,P14-604,P14,Users shall be able to view at least 25 NFL player statistics and points on each page.,"F=1,Q=1","F=1,Q=0",US
+ext:dronology,B1,DRO-000,dronology,The MapComponent shall support different types of map layers (e.g. terrain satellite),"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-001,dronology,The MissionPlanner shall execute flight plans for multiple UAVs concurrently.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-002,dronology,The GCS shall transmit the UAV's properties to the GCSMiddleware,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-003,dronology,The GCS shall transmit the UAV's current location to the GCSMiddleware,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-009,dronology,The GCSMiddleware shall handle state messages monitoring messages and mode change messages received from an GCS.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-010,dronology,The GCSMiddleware shall follow a predefined set of steps to establish a connection between a GCS and Dronology,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-011,dronology,The GCSMiddleware shall handle multiple GCS,"F=1,Q=1","F=0,Q=0",
+ext:dronology,B1,DRO-025,dronology,Each route shall include a unique ID a textual description and a set of waypoints all of which are editable in the UI.,"F=1,Q=0","F=0,Q=0",
+ext:dronology,B1,DRO-026,dronology,The RouteCreationUI shall only accept valid altitude and speed values for waypoint.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-027,dronology,The RouteCreationUI shall distinguish between starting ending and intermediate waypoint markers.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-029,dronology,A user may reorder routes or remove flight plans assigned to a UAV as long as the flight has not started execution.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-033,dronology,The RouteAssignmentUI shall provide means to select an existing routes and assign them to a UAV.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-034,dronology,When loading the map view it shall be positioned at the pre-defined location,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-036,dronology,The UIMiddleware shall accept and activate a mission plan upon request.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-037,dronology,The UIMiddleware shall enable an existing route to be assigned to an active UAV.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-038,dronology,The UIMiddleware shall enable the creation and modification of flight routes,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-041,dronology,The UIMiddleware shall provide a list of all active UAVs,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-044,dronology,The InternalSimulator shall approximate the state of the battery,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-045,dronology,When given a landing command the InternalSimulator shall move the UAV from to the ground altitude corresponding to its current longitude and latitude.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-046,dronology,When given a goto command the InternalSimulator shall update the location of the UAV at increments of {{SIMULATIONSTEPSIZE}} meters moving it towards the target destination until the destination is reached.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-047,dronology,When given a takeoff command the InternalSimulator shall move the UAV to the takeoff altitude corresponding to its current longitude and latitude.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-049,dronology,The UAVRegistrationManager shall store UAV meta-data information such as the UAV's technical characteristics,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-050,dronology,When the maximum numbers of allowed activated UAVs has been reached the UAVActivationManager shall reject any further activation requests.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-051,dronology,When a UAV is deactivated the UAVActivationManager shall cancel all current and scheduled flight plans,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-052,dronology,The VehicleCore shall support virtual UAVs,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-053,dronology,The VehicleCore shall support UAVs connected via the GCS,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-055,dronology,If requested the SingleUAVFlightPlanScheduler shall abort the currently executing flight plan of an UAV,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-060,dronology,When requested if a mission is currently active the MissionPlanner shall cancel the active mission.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-061,dronology,The MissionPlanner shall manage predefined FlightPatterns,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-064,dronology,If a flight route is assigned to a UAV which is currently hovering in place the FlightManager shall assign the route and maintain the hover in place mode.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-065,dronology,When the hover in place command is issued the FlightManager shall halt the UAV in place and maintain its current position.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-067,dronology,When given two coordinates the CoordinateSystem shall compute the distance between them.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-069,dronology,When a flight route requires a customized takeoff altitude that differs from the system's default takeoff altitude it shall be specified in the flight route.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-070,dronology,The FlightRouteManager shall persist flight routes.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-071,dronology,The FlightRouteManager shall ensure that all flight routes represent a {{VALIDFLIGHTROUTE}}.,"F=0,Q=1","F=1,Q=1",
+ext:dronology,B1,DRO-073,dronology,When the GCS loses the connection to an UAV the GCS shall attempt to reconnect,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-075,dronology,When a GCS requests activation of a newly detected UAV the GCSMiddleware shall forward the request to Dronology.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-077,dronology,The ObjectAvoidance system only issues commands within the capabilities of the UAV,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-079,dronology,When a stationary or moving object is within the proximity of a UAV the ObjectAvoidance system shall issue evasive directives to the UAV,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-081,dronology,When the RealTimeFlightUI is loaded a map shall be displayed.,"F=1,Q=0","F=0,Q=0",
+ext:dronology,B1,DRO-083,dronology,The UIMiddleware shall only assign one control-client at a time for each UAV.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-085,dronology,When a UAV's current flight is cancelled the SingleUAVFlightPlanScheduler shall in turn cancel all scheduled flight plans for that UAV.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-086,dronology,If a UAV has pending flight plans then when it reaches the final waypoint of its current flight plan the SingleUAVFlightPlanScheduler shall execute the next assigned flight plan.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-090,dronology,Each waypoint shall be specified using coordinates that include longitude latitude and altitude.,"F=0,Q=0","F=0,Q=1",
+ext:dronology,B1,DRO-091,dronology,The VehicleCore shall associate a {{UAVTYPE}} for each UAV defining its basic attributes.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B1,DRO-092,dronology,The UAVActivationManager shall ensure that only one instance of each registered drone is active at any time.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-093,dronology,The SingleUAVFlightPlanScheduler shall only execute one flight plan at a time for each UAV.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B1,DRO-094,dronology,The VehicleCore shall assign a unique ID to each activated UAV.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B1,DRO-096,dronology,When requested the VehicleCore shall shall transition the UAV between states according to allowed state transitions as depicted in the UAV state transition diagram,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B1,LEE-001,leeds,The system must offer customisable workflow to import or create metadata and upload associated files and support multiple ingest protocols e.g. SWORD2,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B1,LEE-003,leeds,"The system must ingest and store metadata at a data object level, where a data object is a folder that contains one or more files","F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-004,leeds,The system must support multiple files types including multimedia.,"F=0,Q=1","F=1,Q=0",
+ext:leeds,B1,LEE-006,leeds,"The system must support controlled lists against some metadata fields, either held locally or drawn from an external source e.g. Subject vocabularies","F=0,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-007,leeds,"The system should support customisation of out of the box help text and provide context sensitive feedback for the depositor e.g. Highlight missing metadata fields, file upload failure alert.","F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-008,leeds,The system must support staged deposit workflow including an administrative area for quality checking prior to data publication.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-009,leeds,"The system must enable selective harvesting of metadata, including support for OAI-PMH sets; offer API functionality to re-users, conforming to open standards.","F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-010,leeds,The system must enable extraction of metadata and data in an open format e.g. to enable migration to another repository platform.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-012,leeds,The system should support different types of relationship within and between data sets e.g. IsVersionOf; Is Part Of; References etc. and support navigation between related datasets.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-013,leeds,The system should support additional depositor generated and re-user generated metadata.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-017,leeds,The system should auto-generate preservation metadata.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-018,leeds,The system must support versioning of datasets including clear indication of the latest version.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-019,leeds,"The system should display file size, format and software application and version for re-users","F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-020,leeds,The system must support technical metadata related to specific files or datasets.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-022,leeds,The system must support generation of persistent unique identifiers for datasets including DOIs.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-024,leeds,The system could visualise and process data within the repository system.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-025,leeds,"The system should unpack a range of file archive formats (e.g. Zip, tar, gz, bz) to allow navigation through the archive folder structure and selective download","F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-026,leeds,The system could support optional end user alerts e.g.to be notified of data change or new versions.,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B1,LEE-027,leeds,The system must enable depositor and repository manager to specify granular access rights to the deposited data files at collection and data object level.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-028,leeds,The system should enable depositor and repository manager to specify granular access rights to the deposited data files at individual file level.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-029,leeds,"The system must support embargo options for metadata and/or associated files at collection, data object and file level.","F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-031,leeds,The system must enable immediate access to and download of datasets where available,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-036,leeds,The system must support permanent data destruction to meet any legal or ethical requirements.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-037,leeds,"The system must manage granular access to data and its associated metadata, including data held securely in a dark archive.","F=0,Q=1","F=1,Q=1",
+ext:leeds,B1,LEE-039,leeds,"The system must generate a variety of reports analysing repository content, including records associated with an academic unit, a funder, grant number, data creator and analysis of data by format, file size and embargo and access conditions.","F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-040,leeds,The system must hold funder and grant metadata associated with one or more repository records.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-042,leeds,The system should support reporting by funder to confirm a particular funder's open access data / deposit requirement has been met.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B1,LEE-043,leeds,The system should generate reports on repository content growth pattern over time.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-044,leeds,The system should support preservation function by generating reports on repository content.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-045,leeds,"The system should generate reports on the number and origins of repository end users, including by domain type and geographical location.","F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-046,leeds,"The system must report on number and speed of data downloads and log number of data requests. Reports should be possible over specified periods of time and against specified subsets of the repository (by Funder, by Creator, by academic unit).","F=1,Q=0","F=1,Q=1",
+ext:leeds,B1,LEE-049,leeds,The system must allow specification of mandatory metadata fields.,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B1,LEE-050,leeds,The system should retain history of changes to metadata fields,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B1,LEE-051,leeds,The system must possess a field for multiple data owners over time (previous owners should not be overwritten).,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-052,leeds,"The system must import or harvest metadata and associated files from a variety of sources using established standards such as OAI-PMH, OAI-ORE.","F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-053,leeds,"The system must harvest / ingest / import metadata from other systems e.g. funder, grant number, equipment, author identifier, project code.","F=1,Q=1","F=1,Q=0",
+ext:leeds,B1,LEE-054,leeds,"The system should be able to support externally managed unique entities e.g. identifiers such as ORCID, ResearcherID","F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-055,leeds,The system could display linked data from other systems using open standards.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B1,LEE-056,leeds,"The system must link to associated research outputs, potentially in other systems e.g. Published papers.","F=1,Q=0","F=1,Q=1",
+ext:leeds,B1,LEE-057,leeds,"The system could supply data to research management systems (for example, to enable reporting against the percentage of projects with data associated, analysable by Funder and academic unit).","F=1,Q=0","F=0,Q=1",
+ext:leeds,B1,LEE-058,leeds,The system could import and display impact measures such as citation data from external sources e.g. Thomson Reuters Data Citation Index and track alt-metrics such as links and likes.,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-002,reqview,ReqView shall use REST API to download / upload a requirements document from / to Google Drive web service,"F=1,Q=1","F=0,Q=1",
+ext:reqview,B1,REQ-009,reqview,User shall be able to save the current ReqView document as a template file stored on user's local drive,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-010,reqview,"The template file shall contain information about document structure, definition of custom attributes and traceability definition","F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-014,reqview,User shall be able to open a document stored on user's Google Drive by providing its name,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B1,REQ-015,reqview,User shall be able to save the current document to user's Google Drive providing its name and password for encryption,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B1,REQ-016,reqview,User shall be able to upload a new version of a document opened from user's Google drive,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B1,REQ-017,reqview,User shall be able to import a structured requirements document from MS Word,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B1,REQ-019,reqview,User shall be able to export document to PDF with the same layout as displayed in the Requirements Table,"F=1,Q=1","F=0,Q=1",
+ext:reqview,B1,REQ-021,reqview,User shall be able to export ReqView document to MS Word,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B1,REQ-023,reqview,User shall be able to navigate in the document by clicking at TOC sections,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-024,reqview,"User shall be able to review requirements organized into a table containing at Requirement ID, Requirement Description, Discussion, Links and custom requirement attribute columns","F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-025,reqview,ID column shall contain a unique identifier,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-030,reqview,User shall be able to show / hide each Requirements Table column except ID and Description columns,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B1,REQ-031,reqview,User shall be able to sort all columns of the Requirements Table except Discussion and Links column by ascending or descending order. Description column shall be sorted only ascending by document hierarchy order.,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-034,reqview,Comments in the discussion shall be sorted by date in ascending order,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-036,reqview,User shall be able to expand and collapse all comments in Discussion panel.,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-039,reqview,User shall be able to expand and collapse all changes in the History Panel.,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-043,reqview,User shall be able to mark a requirement including all its children as deleted.,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-044,reqview,User shall be able to undelete a selected requirement including all its children,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-049,reqview,"Each custom object attribute shall have one of following types: bool, int, real, string, date, enum, xhtml","F=0,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-050,reqview,Each custom object attribute can have a text field presented to the user as column heading,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-051,reqview,Each custom object attribute can be set as read only in which case user shall be prevented of changing its value for any requirement,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-053,reqview,"New comments shall be stored with the current date and time, and author contact details name, email and company (see User Settings).","F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-055,reqview,"If a requirement has an attachment it shall be shown in the Requirements Table under requirement's text. Image attachments shall be displayed as embedded pictures, for other type of attachments at least file name shall be displayed.","F=1,Q=1","F=0,Q=1",
+ext:reqview,B1,REQ-060,reqview,User shall be able to create a directed link between requirements in the same document,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-061,reqview,User shall be able to create a directed link between objects in two different documents,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-064,reqview,User shall be able to follow link in order to navigate to the linked object,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-066,reqview,User shall be able to input up to 10 filtering criterions. Each criterion can be a text keyword or name of attribute with the matched value,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-067,reqview,"Criterions can be connected into logical clauses using AND, OR and NOT operators","F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-068,reqview,User shall be able to filter only changed requirements from the version stored in the last opened ReqView document,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-069,reqview,User shall be able to choose if he wants to present the found requirements with or without their structure (all parent section headings on all levels),"F=1,Q=0","F=1,Q=1",
+ext:reqview,B1,REQ-071,reqview,The document words shall be matched if they have the same prefix as an input keyword without respecting the case,"F=1,Q=0","F=0,Q=1",
+ext:reqview,B1,REQ-073,reqview,The application shall show change indicator for requirements changed from the version stored in the opened ReqView document,"F=1,Q=1","F=0,Q=1",
+ext:reqview,B1,REQ-075,reqview,"ReqView shall track for each change information about change date, reviewer, changed attribute name and changed attribute original value and value after the modification","F=1,Q=1","F=1,Q=0",
+ext:wasp,B1,WAS-000,wasp,There should be an application that provides functionality for mobile users to propose and schedule meetings.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-002,wasp,The WASP platform should provide services that may be used by WASP applications in order to personalize content for a group of end-users based on their user profiles.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-003,wasp,The WASP platform must provide services that may be used by a WASP application to charge the user for using one of his services.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-005,wasp,A user's profile must contain at least one charging point for a specific user.,"F=0,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-007,wasp,The WASP platform shall provide functionality to find points of interest that match the user's explicit need and obey the restrictions following from the user's profile and current context.,"F=1,Q=1","F=1,Q=0",
+ext:wasp,B1,WAS-011,wasp,The WASP platform shall provide functionality to find services that match the user's explicit need and obey the restrictions following from the user's profile and current context. For the found services the WASP platform shall provide (links to) the service profiles.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-013,wasp,The WASP platform shall provide functionality for end-users to communicate with their buddies.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-018,wasp,A WASP application shall be able to setup a phone call connection using the 3G Platform via the WASP platform.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-020,wasp,"The WASP platform shall allow end-users to give and remove Create, Read, Update, Delete (CRUD) access rights on parts of the user profile to other users, specific WASP applications and the 3G Platform.","F=1,Q=1","F=1,Q=0",
+ext:wasp,B1,WAS-021,wasp,"The WASP platform shall allow other users, WASP applications and/or the 3G Platform to ask the end- user for access rights on parts of the user profile.","F=1,Q=1","F=1,Q=0",
+ext:wasp,B1,WAS-023,wasp,The WASP platform should allow end-users to delegate and remove the rights to give access to parts of the user profile to other users.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-026,wasp,The WASP platform must be able to retrieve location information from the 3G Platform.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-027,wasp,It must be possible for a WASP application to send out messages to users using the WASP platform.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-029,wasp,The WASP platform must be able to combine knowledge about the end-user (in terms of profile and context) and a specific information request into a search query on the service registry.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-030,wasp,The WASP platform must be able to draw a map of a given area.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-031,wasp,The WASP platform must be able to show the location of users on a map.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-032,wasp,The WASP platform must be able to show the location of various points of interests on a map.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-033,wasp,The WASP platform shall be able to obtain the geographic location of points of interests.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-034,wasp,The WASP platform must be able to display a route connecting two or more points on a map.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-035,wasp,The WASP platform should be able to provide the end-user with walking or driving instructions.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-037,wasp,The platform must be able to access points of interests and services from a map.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-038,wasp,"The WASP platform should be able to calculate a route between two or more arbitrarily chosen points, avoiding traffic jams or construction works.","F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-039,wasp,"The WASP platform should have access to information about traffic jams and construction works, as well as suggested alternative routes.","F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-040,wasp,The WASP platform should be possible to determine the location of touristic attractions close to a calculated route.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-041,wasp,The WASP platform should be able to determine whether a traffic jam lies on a suggested route.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-048,wasp,The WASP platform must actively monitor all events.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-049,wasp,"If the user cannot be notified of the event the first time, the WASP platform should retry to notify the user of the occurrence of the event, until the user has been notified or a specified time-out elapses.","F=1,Q=1","F=1,Q=0",
+ext:wasp,B1,WAS-051,wasp,The WASP platform must maintain authentication credentials per user.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-052,wasp,The WASP platform should be able to request the user's ID from the 3G platform.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-053,wasp,The WASP platform should have a (limited) number of classification schemes for POIs and services.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-054,wasp,The WASP platform must have a (web-based) form to specify simple POI and service profiles.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-055,wasp,The WASP platform should offer a tool that helps the 3rd party service provider to specify more complex profiles.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B1,WAS-056,wasp,The platform must be able to store POI and service profiles.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B1,WAS-057,wasp,The WASP platform must allow for users to have different roles.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-058,wasp,Profiles must have associated expiry dates. The registry must check for their existence and should enforce them. The registry may supply a default expiry date if none was specified.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B1,WAS-059,wasp,"Services must have associated schedule information (this service is available weekdays from 8:00 till 16:00), a service may be available 24/7. The registry must check for their existence, it may supply a default schedule if none was specified.","F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC10E1-000,iTrust,The health care professional types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC10E2-001,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC10E2-002,iTrust,The health care professional does not confirm the selection and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC10S1-003,iTrust,The health care personnel enters a MID E of a patient and confirms their selection E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC10S1-004,iTrust,The health care personnel may enteredit personal health information including editing historical values from Data Format and immunizations and office visit information date diagnoses medication name of attending physician but not notes laboratory procedures family history the MI Ds of the patient 's mother and father and Body Mass Index BMI S,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC10S1-005,iTrust,The HCP can indicate the patient has passed away providing an appropriate diagnosis code,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC10S1-006,iTrust,The HCP can graph height or weight of the patient over the last calendar years S,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC10S2-008,iTrust,The HCP is presented with a line chart giving the chosen measurements either height or weight of the patient spanning the last calendar years of data averaged by quarters January- March April- June July- September October- December E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC11E1-009,iTrust,The HCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC11E2-010,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC11E2-011,iTrust,The health care personnel does not confirm the selection and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC11S1-012,iTrust,The HCP enters a MID E or name of a patient and confirms their selection E,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC11S1-013,iTrust,The HCP documents the office visit date hospital location of the office visit if any the default should be the HCP 's home location and notes numbers characters - ' blankspace and carriage return are all allowed input values about an office visit,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC11S1-014,iTrust,The HCP 's medical identification number should also be maintained,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC11S1-015,iTrust,Additionally the HCP can document none one or more medications NDC see Data Format prescribed S none one or more lab procedures that are ordered LOINC code see Data Format UC none one or more diagnoses via the ICD- CM code none one or more medical procedures CPT code performed and none one or more immunizations given CPT Code see UC S chosen from appropriate pull-down lists,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC11S1-016,iTrust,The HCP may also add a patient referral UC,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC11S1-017,iTrust,All events are logged UC S,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC12-020,iTrust,The software tester authenticates himself or herself in the i Trust Medical Records system UC,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC12-021,iTrust,He or she is then presented with the actual operational profile of the operations of the i Trust Medical Records where the use percentage is the of total transactions for each particular transaction logging type broken-down by each of the user types patient LHCP UHCP admin tester,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC13E1-023,iTrust,The health care personnel types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15E1-024,iTrust,The administrator types an invalid code information and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S1-025,iTrust,The administrator will maintain addupdate a listing of allowable immunizations that an HCP can use,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S1-026,iTrust,The administrator will store the CPT code The CPT code set accurately describes medical surgical and diagnostic services and is designed to communicate uniform information about medical services and procedures among physicians coders patients accreditation organizations and payers for administrative financial and analytical purposes,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S1-027,iTrust,About CPT E and up to alpha characters giving the name E of the immunization,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC15S2-028,iTrust,The administrator will maintain a listing of allowable diagnoses that an LHCP can use,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S2-029,iTrust,The administrator will store the ICD- CM code The International Statistical Classification of Diseases and Related Health Problems most commonly known by the abbreviation ICD provides codes to classify diseases and a wide variety of signs symptoms abnormal findings complaints social circumstances and external causes of injury or disease,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S2-030,iTrust,NHCS Classification of Diseases Functioning and Disability for the diagnosis E a classification that the diagnosis is either chroniclong-term OR short term and up to alphanumeric characters giving the name E of the diagnosis,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC15S3-031,iTrust,The administrator will maintain addupdate a listing of allowable drugs that an HCP can use,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S3-032,iTrust,The administrator will store the National Drug Code The National Drug Code NDC is a universal product identifier used in the United States for drugs intended for human use,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC15S3-033,iTrust,National Drug Code Directory,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC15S4-034,iTrust,The administrator will maintain addupdate a listing of allowable physical services including laboratory procedures that an HCP can use,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S4-035,iTrust,The administrator will store information of a LOINC code Logical Observation Identifiers Names and Codes LOINC is a database and universal standard for identifying medical laboratory observations,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC15S4-036,iTrust,LOINC co Medical Informatics E according to Data Format,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC16-037,iTrust,Through the Personal Health Records page an LHCP chooses a chronic disease and a patient,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC16-038,iTrust,The data in the database is analyzed according to the risk factors for the disease to determine if the patient exhibits a certain risk factor,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC16-039,iTrust,Currently available risk factors for chronic diseases are defined for Diabetes and Type and Type and Heart Disease,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC16-040,iTrust,When the chosen patient satisfies the preconditions of the chosen chronic disease E the LHCP is provided with a warning message if that patient exhibits three or more risk factors,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC16E1-042,iTrust,The LHCP chooses to examine a patient for which the preconditions do not apply eg an adult should n't be tested for child diabetes and the LHCP is prompted that no analysis can occur,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC17S1-043,iTrust,An alive patient who has not had an office visit for more than one year and who has been diagnosed with diabetes mellitus is diagnosed with ICD code beginning with asthma is diagnosed with ICD code beginning with or circulatory-system disease is diagnosed with an ICD code between and inclusive,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC17S2-044,iTrust,An alive patient over years old who has not had a flu shot CPT codes per http wwwinfluenzacomindexcfm fa ADDITIONALRESHC during the months Sept - Dec of the last calendar year or during the months Sept - Dec of the current calendar year if the retrieval time is between Sept - Dec,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC17S3-045,iTrust,An alive patient under the age of who has not had proper immunizations per the immunization schedule,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC17S3-046,iTrust,The catch up schedule is relevant when the patient did not begin the immunizations according to the recommended schedule,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC18E1-047,iTrust,The administrator types an invalid hospital ID and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC18S2-051,iTrust,Note that the administrator is not allowed through the system interface to delete an existing entry or modify the hospital ID number in an existing entry,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC19E1-052,iTrust,The LHCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC19E2-053,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC19E2-054,iTrust,The LHCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC19S3-059,iTrust,The prescription report is titled with the patient name,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1E1-061,iTrust,The system prompts the enterereditor to correct the format of a required data field because the input of that data field does not match that specified in data format for patients,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1E2-062,iTrust,The enterereditor is presented with the name of the user and determines if it is invalid or not the right person,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1E2-063,iTrust,The enterereditor is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC1S1-064,iTrust,The HCP enters a patient as a new user of i Trust Medical Records system,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1S1-065,iTrust,Only the name and email are is provided,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1S1-066,iTrust,The patient 's assigned MID and a secret key the initial password is personally provided to the user with which the user can reset hisher password,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC1S1-067,iTrust,The HCP can edit the patient according to data format E with all initial values except patient MID defaulting to null andor as appropriate,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1S1-068,iTrust,Patient MID should be the number assigned when the patient is added to the system and can not be edited,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1S1-069,iTrust,The HCP does not have the ability to entereditview the patient 's security questionpassword,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B1,IT-UC1S2-070,iTrust,The HCP provides a deceased date data format,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC1S2-071,iTrust,An optional diagnosis code is entered as the cause of death,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC21E1-072,iTrust,The LHCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC21E2-073,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC21S1-075,iTrust,The LHCP or ER enters a MID E and confirms the input E,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC22E2-077,iTrust,The comment is empty and the text No Comment without link is displayed instead of the Read Comment link,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC22S1-078,iTrust,The system shall enable the administrator to add a new entry for an appointment type including its type name with up to alpha characters and duration in the unit of minutes E and modify the duration in an existing entry E,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC22S1-079,iTrust,A new entry shall not have the same type name as that of any existing entry E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC22S1-080,iTrust,Note that the administrator is not allowed through the system interface to delete an existing entry or modify the appointment type name in an existing entry,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC22S2-082,iTrust,The LHCP enters the patient MID selects the type of appointment from a pull-down menu of the existing appointment types enter the appointment date and start time only a datetime equal or after the current datetime is allowed,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC22S2-083,iTrust,The user interface shall provide both the option of typing in a specific date in the date format and the option of selecting a date from a calendar for the current month enter comment optional up to characters such as reason for the appointment E,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC22S3-088,iTrust,The row for each conflicting appointment is highlighted in bold a conflicting appointment is one that has overlap in its appointment duration period with that of at least another appointment of the same user,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC23E2-091,iTrust,The chosen patient is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC23E2-092,iTrust,The LHCP does not confirm the selection and can try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC23S1-093,iTrust,The LHCP enters a patient medical identification number MID E and confirms hisher input E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC23S3-095,iTrust,All patient demographic information address phone etc see UC and Data Format The entire history of personal health records see UC and Data Format All diagnoses including those not normally viewable by the requesting LHCP see UC and Data Format All designated HC Ps MI Ds and Names see UC All allergies procedures medications office visits and known relatives see UC and Data Format All MI Ds and names of people that this person is representing see UC All MI Ds and names of people that this person is represented by see UC,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC24-097,iTrust,A patient or personal health representative can answer any of the following questions relative to a previous in UC S office visit according to Data Format,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC24-098,iTrust,How many minutes did you wait in the waiting room,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC24-099,iTrust,How many minutes did you wait in the examination room before seeing your physician,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC24-100,iTrust,How satisfied were you with your office visit,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC24-101,iTrust,How satisfied were you with the treatment or information you received,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC24-102,iTrust,The answers to the survey are stored,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC25-104,iTrust,The user provides a zip code E Or a hospital code and an optional physician type from a pull-down list see data format - general surgeon heart specialist pediatrician OBGYN,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC25-105,iTrust,The patient is provided with the following for each physician of that type that practices in a zip code based upon the addresszipcode provided in UC that match the first three digits of the provided zip code Name address average number of minutes patients wait in waiting room average number of minutes patients wait in examination room prior to seeing physician average office visit satisfaction average satisfaction with treatmentinformation and percentage of office visits for which satisfaction information is available,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC25E1-106,iTrust,The input is not a valid zip code see Data Format,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC26E1-108,iTrust,The lab procedure code is not the intended lab procedure code,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC26E1-109,iTrust,The HCP selects a different procedure code,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC26E2-110,iTrust,The selected Lab Technician is not the intended Lab Technician,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B1,IT-UC26S1-113,iTrust,The HCP selects a procedure code a priority from to most important not as important and Lab Technician listed with hisher specialty and the number of pending lab procedures in hisher priority queue grouped by priority,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC27S1-124,iTrust,The user has successfully changed hisher password UC S,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC27S2-126,iTrust,The status of a laboratory procedure has been updated UC S,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B1,IT-UC27S2-127,iTrust,The patient is notified with the following information the LOINC number and the updated status,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC28-128,iTrust,The LHCP chooses to view all patients with which he or she has ever had an office visit with,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC29-131,iTrust,A patient has just been diagnosed with a condition and wants to find the LHC Ps in the area who have handled that condition,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC29-132,iTrust,The patient chooses ' My Diagnoses and is presented with a listing of all their own diagnoses sorted by diagnosis date more recent first,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC29-133,iTrust,The patient can select a diagnosis and will be presented with the LHC Ps in the patient 's living area based upon the first three numbers of their zip code who have handled this diagnosis in the last three years,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC29-134,iTrust,The list is ranked by the quantity of patients the LHCP has treated for that diagnosis each patient is only counted once regardless of the number of office visits,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC2E2-136,iTrust,The enterereditor is presented with the name of the user and determines if it is invalid or not the right person,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC2E2-137,iTrust,The enterereditor is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC2S1-138,iTrust,An administrator enters a LHCP ER or public health agent as a user of i Trust Medical Records system initially only the name and email are provided,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC2S1-139,iTrust,A secret key is personally provided to the user with which the user can reset hisher password,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC2S1-140,iTrust,The admin must specify a specialty for a new LHCP one of General Physician Heart Surgeon OBGYN Pediatrician Surgeon and for a new LT one of blood tissue or general,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC2S1-141,iTrust,The data for personnel can be edited according to Data Format all fields mandatory except for associated MID and Street Address S E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC2S1-142,iTrust,The administrator shall be allowed to assign a LHCP to multiple hospitals and the administrator can choose among only the hospitals provided in the hospital list pull down menu,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC2S1-143,iTrust,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database data format,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC2S1-144,iTrust,The administrator shall be allowed to assign a LT to a single hospital and the administrator can choose among only the hospitals provided in the hospital list pull down menu,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC2S1-145,iTrust,The hospital ID numbers for a LT are stored in the Medical Care Personnel Affiliation database data format,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC2S2-146,iTrust,A LHCP enters an UAP as a user of i Trust Medical Records system according to data format all fields mandatory,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30E1-147,iTrust,The HCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30E2-148,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC30E2-149,iTrust,The HCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S1-151,iTrust,The patientrepresentative is presented with a pull down menu of hisher DLHCP,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC30S1-152,iTrust,The patientrepresentative chooses one of these DLHCP and types the subject up to characters and text of a message up to characters and clicks the send button,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S2-158,iTrust,The LHCP enters and confirms the patientrepresentative 's MID E E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC30S2-162,iTrust,After a message is sent the LHCP is directed to to hisher message outbox,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S3-163,iTrust,A patient or patient representative wishes to reply to a message,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B1,IT-UC30S4-170,iTrust,An LHCP wishes to reply to a message,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B1,IT-UC30S5-177,iTrust,A user a patient patient representative or LHCP wishes to read a message from the message inbox or outbox,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B1,IT-UC30S5-180,iTrust,By default the messages in the message inboxoutbox should be ordered by timestamp the most recent first,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S6-186,iTrust,To do so a user selects one option out of the Sort by labeled drop-down box with options of Sender Recipient or Timestamp and selects one option out of the by order of labeled drop-down box with options of ascending or descending and then click the Sort button,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC30S6-187,iTrust,Note that the sorted order is not saved for later viewing after the message inbox or outbox is reopened again where the default sorting is always used,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S7-188,iTrust,A user an LHCP or patientrepresentative can modify hisher message displaying filter by modifying the following filtering criteria The sender ie the sender 's name is exactly the same as the specified string the subject ie the subject is exactly the same as the specified string has the words ie the subject or the message body has the specified substring does n't have ie neither the subject nor the message body has the specified substring time stamp falling into the period defined by the starting date and ending date inclusive,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S7-189,iTrust,The user interface shall provide both the option of typing in a specific date in the date format and the option of selecting a date from a calendar for the current month,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S7-190,iTrust,Note that a single filter includes values for these five filtering criteria rather than five filters for these five filtering criteria and a value could be an empty string indicating that this criterion has no impact on filtering ie imposing no constraints related to this criterion,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S7-191,iTrust,The user interface shall be initially populated with the values of the filtering criteria from the previously saved filter,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC30S7-192,iTrust,After the user modifies the criteria the user chooses to click the Cancel button to cancel the modifications of the filter ie repopulate the user interface with the values of the filtering criteria from the previously saved filter to click the Test Search button to search ie displaying the message inbox S including only the messages satisfying the specified filtering criteria or to click the Save button to save the modified filter,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC30S7-193,iTrust,Each user is associated with only one filter being saved across login sessions and applies only this saved filter,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC31S1-195,iTrust,The expired prescription report list is titled with the patient name,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC32E1-199,iTrust,If there are no patients satisfying the three conditions an empty list is presented,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC32S1-200,iTrust,A chronic special-diagnosis-history patient is an alive patient who has been diagnosed with at least one of the following diabetes mellitus is diagnosed with ICD code beginning with asthma is diagnosed with ICD code beginning with or circulatory-system disease is diagnosed with an ICD code between and inclusive,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC32S2-201,iTrust,The patient list is titled with the HCP 's name,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC32S2-204,iTrust,When a chronic special-diagnosis-history patient satisfies all three conditions and has multiple prescriptions satisfying the third condition the patient is listed in the list only once,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC33E1-206,iTrust,The receiving HCP chosen is not the desired HCP,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC33E1-207,iTrust,The sending HCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC33E2-208,iTrust,The patient receiving HCP referral notes andor referral priority are invalid and the HCP is prompted to enter this information again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC33S1-209,iTrust,An HCP chooses to refer a patient to another receiving HCP through the referral feature on a patient 's office visit page UC,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC33S1-210,iTrust,The sending HCP must select a receiving HCP by either entering the HCP 's MID and confirming the selection or by searching for the HCP by name,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC33S1-211,iTrust,The sending HCP is also presented with a text box to include notes about the referral,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC33S1-214,iTrust,Upon sending a referral the patient sending HCP and receiving HCP receive a message summarizing the newly created referral information sending HCP name specialty receiving HCP name specialty patient name referral notes and referral creation timestamp additionally the sending and receiving HCP messages include the referral priority,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC33S2-216,iTrust,The receiving HCP is presented with a list of referrals sorted by priority from most important to least important,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC33S2-217,iTrust,The receiving HCP then selects a referral to view details and is presented with the name and specialty of the sending HCP the patient 's name the referral notes the referral priority the office visit date with a link to the office visit and the time the referral was created,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34E1-221,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34E1-222,iTrust,The HCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34E2-223,iTrust,The patient UAP or personal representative enters a systolic blood pressure outside the range - or a diastolic blood pressure outside the range -,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC34E2-224,iTrust,Heshe is notified of an error and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34E3-225,iTrust,The patient UAP or personal representative enters a glucose level outside the range -,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC34E3-226,iTrust,Heshe is notified of an error and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34E4-227,iTrust,The patient UAP or personal representative tries to enter more than ten physiologic data points for one day and is told additional data can not be entered,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S1-231,iTrust,In both cases the LHCP is presented the name of the patient and must confirm the adddelete,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S2-234,iTrust,A patient whose at least one physiologic data type is specified to be under monitoring chooses to report their physiologic data,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S3-237,iTrust,An LHCP chooses to view the physiologic data monitoring details,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S3-238,iTrust,The LHCP is presented with a listing of all his or her patients whose at least one physiologic data type is specified to be under monitoring with their blood pressure and glucose levels recording timestamp and whom reported the data patient UAP name personal representative name,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S3-239,iTrust,Patients with no information for the current day are highlighted,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S3-240,iTrust,Patients with blood pressure or glucose level out of range are highlighted normal blood pressure systolic - diastolic - normal glucose -,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S3-241,iTrust,The LHCP can select a patient to obtain additional information about a patient S,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S4-243,iTrust,The LHCP is presented with a screen upon which heshe can choose a date range,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S4-244,iTrust,Once the date range is selected the LHCP can see the patient name patient phone number personal representative name and phone number if applicable and the blood pressure glucose levels height weight and pedometer readings as well as whom reported the data patient UAP name personal representative name for that date range,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC34S5-245,iTrust,A UAP can select to report physiologic measurements,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S5-246,iTrust,Heshe is presented with a list of the patients whose at least one physiologic data type is specified to be under monitoring and for whom heshe is allowed to report measurements,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S5-247,iTrust,He or she can select a patient and then enter data,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S5-250,iTrust,Only the applicable input entries those whose corresponding data types of the patient are specified to be under monitoring are displayed to the UAP,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC34S6-251,iTrust,A patient can select to report physiologic measurements for those whose at least one physiologic data type is specified to be under monitoring andfor whom heshe is a patient representative,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S6-252,iTrust,Heshe is presented with a list of the patients whose at least one physiologic data type is specified to be under monitoring and for which heshe is allowed to report measurements,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S6-253,iTrust,He or she can select a patient and then enter data,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC34S6-256,iTrust,Only the applicable input entries those whose corresponding data types of the patient are specified to be under monitoring are displayed to the patient,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC35S1-260,iTrust,A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID drug and symptoms,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC35S2-264,iTrust,A fake email is sent to the LHCP who administered the immunization indicating the patient name and MID drug and symptoms,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC36S1-265,iTrust,A public health agent is presented with a listing of prescription drug-related adverse events for the time period that do not have a status of removed sorted by NDC,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC36S1-266,iTrust,The public health agent can select to see the detail of a specific report,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC36S1-268,iTrust,The public health agent may also choose to remove an adverse event report such as based upon communication with the reporter or because the report appears to be bogus S,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC36S2-269,iTrust,A public health agent is presented with a listing of immunization-related adverse events for the time period that do not have a status of removed sorted by CPT code,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC36S2-270,iTrust,The public health agent can select to see the detail of a specific report,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC36S2-272,iTrust,The public health agent may also choose to remove an adverse event report such as based upon communication with the reporter or because the report appears to be bogus S,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC37S1-275,iTrust,The drug desired to be prescribed is checked against the patient 's drug allergies,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC37S2-277,iTrust,The drug desired to be prescribed is checked for interactions between other drugs currently taken by the patient,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC37S2-278,iTrust,The HCP is notified of possible interactions,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC37S3-279,iTrust,The HCP selects one or more reasons out the nine reasons listed here for the overriding,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC38S1-281,iTrust,The administer is presented with two lists of NDC codesnames,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC38S1-282,iTrust,The administrator chooses a drug from each list to record an interaction between the two drugs E The two drugs and a textual description of the possible effects of the interaction are stored,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC38S2-283,iTrust,The administrator selects one drug and is presented with a listing of all drug interactions with that drug,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC38S2-284,iTrust,The administrator can select a particular pair of drugs and delete the interaction between the two drugs,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC3E1-285,iTrust,The user may try three times,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC3E1-286,iTrust,After three failed attempts with a userid in a given session disallow attempts to log in via IP address for minutes see comments in the source code,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC3S1-288,iTrust,If the security questionanswer has been set it is not null E present security question and obtain answer,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC3S2-290,iTrust,An email notification is sent,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC3S3-292,iTrust,Allow the administrator to set the length of this period of time and ensure that all authorization is disabled after a period of inactivity that exceeds this length,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC3S4-293,iTrust,A LHCP is presented with a screen of links to the following Recent Laboratory Results recent within the last month laboratory results UC for laboratory procedures heshe ordered in office visits any upcoming appointments for the day,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC3S4-294,iTrust,In the notification center and rejectionacceptance of comprehensive report,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC3S5-295,iTrust,A patient is presented with a screen of links to the following Any upcoming appointments,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC40S1-297,iTrust,Hisher appointments in the current month shall be displayed on the calendar S,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC40S2-299,iTrust,A user a patient chooses to display hisher appointments in the current month together with hisher office visit dates prescription dates and lab procedure dates of the current month on a calendar for the current month,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC40S2-302,iTrust,In the calendar the date entry with an office visit shall display a label as the diagnoses ie ICD- CM codes for the office visit,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC40S2-303,iTrust,The user can select an office visit from the calendar to read the visit 's details S,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC40S2-304,iTrust,In the calendar the date entry with a prescription date ie the date of the office visit the medication was prescribed on shall display a label for the medications prescribed ie NDC see Data Format in the prescription,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC40S3-309,iTrust,The date entry including conflicting appointments is highlighted in bold a conflicting appointment is one that has overlap in its appointment duration period with that of at least another appointment of the same user,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC40S5-312,iTrust,Then the details for the visit shall be displayed in a new page including date of office visit note text diagnoses ie ICD- CM codes medical procedures performed ie CPT code lab procedures ordered LOINC code see Data Format medications prescribed ie NDC see Data Format immunizations given ie CPT Code see UC S and the name of the doctor who prescribed the medication,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC4E1-315,iTrust,The system prompts the patient or HCP to correct the format of a required data field because the input of that data field does not match that specified in data format or data format as appropriate,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC4E2-316,iTrust,The system shall display a default placeholder image for patients who do not have a photograph on file,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC4S1-318,iTrust,When answer to the security question is typed in the answer should not appear on the screen similar to how a password normally appears and the answer should be confirmed by the patient or personal health representative before it is saved,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC4S2-319,iTrust,HCP must enter the MID of a patient and then enter or edit demographic information with the exception of the patient 's security questionpassword according to data format,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC4S3-320,iTrust,An HCP may enter or edit their own demographic information according to data format,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B1,IT-UC4S4-321,iTrust,An HCP may upload a photo of the patient as part of the patient 's demographic records,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC5S1-322,iTrust,For Login Failures the IP Address of the machine transaction type and timestamp are recorded,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC6S2-326,iTrust,The patient can choose to toggle between designatingundesignating any LHCP as being a DLHCP for them,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC6S3-328,iTrust,The patient may optionally enter a zip code match on first three numbers of zip code in addition to the name andor specialty,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC6S3-329,iTrust,The LHCP 's name specialty and address are provided,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B1,IT-UC8S1-330,iTrust,By default the patient is presented with a list sorted by dates most recent access first,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC8S2-331,iTrust,The patient may choose to view the list sorted by the role of the accessor relative to the patient personal health representative LHCP UAP Emergency Responder any order is fine as long as the list is sorted by role as well as by date for each role type most recent access first,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B1,IT-UC9S2-335,iTrust,They can see diagnoses related to the following presented as a table with an x if the family member suffered from that diagnosis High blood pressure Systolic blood pressure over mm Hg andor a diastolic blood pressure over mm Hg high cholesterol HDL good cholesterol levels under mgd L milligrams per deciliter andor a triglyceride level over mgd L diabetes is diagnosed with ICD- CM code beginning with cancer is diagnosed with ICD- CM code beginning with heart disease is diagnosed with ICDCM code beginning with smoking and the cause of death if the family member is deceased,"F=1,Q=0","F=0,Q=1",
+lopo,B3,P01-005,P01,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P01-008,P01,The system shall have a MDI form that allows for the viewing of the graph and the data table.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P01-009,P01,The system shall display Events in a vertical table by time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P01-010,P01,The system shall display the Events in a graph by time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P01-013,P01,The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P01-015,P01,The top 1/4 of the table will hold events that are to occur sequentially.,"F=1,Q=1","F=1,Q=0",F
+lopo,B3,P01-016,P01,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.,"F=1,Q=1","F=1,Q=0",F
+lopo,B3,P01-018,P01,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,"F=1,Q=1","F=0,Q=1",F
+lopo,B3,P01-025,P01,The system shall offer the ability to pause and resume the refresh of data.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P02-041,P02,The product shall synchronize with the office system every hour.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P02-046,P02,The product shall retain user preferences in the event of a failure.,"F=1,Q=0","F=1,Q=1",FT
+lopo,B3,P02-047,P02,100% of saved user preferences shall be restored when system comes back online.,"F=1,Q=1","F=0,Q=1",FT
+lopo,B3,P02-048,P02,The product shall be able to support multiple remote users,"F=1,Q=0","F=0,Q=1",SC
+lopo,B3,P02-055,P02,Every user of the system shall be authenticated and authorized.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P02-056,P02,The product shall prevent its data from incorrect data being introduced.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P03-070,P03,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P03-073,P03,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P03-076,P03,Staff members shall be able to complete a set of tasks in a timely manner.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B3,P03-083,P03,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,"F=1,Q=1","F=0,Q=1",SC
+lopo,B3,P03-097,P03,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P03-098,P03,The system shall protect private information in accordance with the organization’s information policy.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P03-101,P03,A cohort shall be associated to one Program of Study offered by the department.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-104,P03,Students added to a cohort shall be eligible for the cohort’s Program of Study.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-105,P03,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-106,P03,For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-107,P03,For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-109,P03,Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes,"F=1,Q=0","F=0,Q=0",F
+lopo,B3,P03-111,P03,Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-112,P03,A class shall be either a non-clinical class or a clinical class.,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P03-113,P03,A non-clinical class shall specify the course name lecture room requirements and instructor needs.,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P03-114,P03,A clinical class shall specify the course name lecture room requirements clinical site needs lecture instructor needs and clinical lab instructor needs.,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P03-115,P03,Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-116,P03,A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P03-117,P03,Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-119,P03,The report of needed classes shall include (but not be limited to) classes to be offered number of sections needed number of labs needed and room types needed.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-120,P03,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-121,P03,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-122,P03,Clinical site information shall include (but not be limited to) the name of the site contact person and contact information.,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P03-124,P03,A clinical lab section shall include the clinical site name the class instructor day and time of the lab.,"F=0,Q=0","F=1,Q=0",F
+lopo,B3,P03-128,P03,Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-129,P03,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-136,P03,The system shall contain contact information (e-mail and phone number) for all people relevant to the system including (but not limited to) staff members students lecture instructors clinical lab instructors and clinical site administrators.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-137,P03,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-138,P03,The system will notify affected parties for routine communication purposes including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-143,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier program of study preferred sequence of classes and quarters that a cohort will be taking specific classes.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-144,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name and required classes for that Program of Study.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-145,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site including the clinical site name site contact person contact information and address.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P03-146,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section including the clinical site name the department/section for the lab the class instructor day and time of lab and contact information.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P03-147,P03,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P04-150,P04,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P04-152,P04,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P04-153,P04,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P04-160,P04,The Disputes application shall interface with the Letters application. This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,"F=0,Q=1","F=1,Q=1",O
+lopo,B3,P04-161,P04,The Disputes application shall interface with the Cardmember Posting and Billing System. This will allow the Disputes application to request adjustments to cardmember and merchant’s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,"F=0,Q=1","F=1,Q=1",O
+lopo,B3,P04-163,P04,Only users with Update access must be able to initiate dispute requests.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P04-164,P04,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P04-165,P04,All authorized users once authenticated must be able to logon to the Disputes System,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P04-168,P04,If a user account is revoked it can only be re-instantiated by the System Administrator.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P04-169,P04,Only the System Administrator shall be able to reset a revoked user logon account,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P04-170,P04,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P04-171,P04,All updates to data files or database must be initiated from the Disputes System.,"F=0,Q=0","F=0,Q=1",SE
+lopo,B3,P04-177,P04,All actions that modify an existing dispute case must be recorded in the case history.,"F=1,Q=1","F=1,Q=0",L
+lopo,B3,P04-180,P04,The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,"F=0,Q=1","F=1,Q=1",F
+lopo,B3,P04-182,P04,The Disputes System shall provide view access capability for authorized users of the application.,"F=0,Q=1","F=1,Q=1",F
+lopo,B3,P04-186,P04,The Disputes System will provide the user the ability to create or initiate a ticket retrieval request. As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request. The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P04-188,P04,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P04-194,P04,The Disputes System must provide the ability to view existing dispute cases.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P04-196,P04,A list of all disputes cases that meet the entered search criteria must be provided to the user. The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list. For example all open cases will be yellow and all closed cases will be gray.,"F=1,Q=1","F=1,Q=0",F
+lopo,B3,P04-201,P04,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.,"F=1,Q=1","F=0,Q=1",F
+lopo,B3,P04-202,P04,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P05-219,P05,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P05-232,P05,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P05-234,P05,One insurance company shall not be able to view another insurance companys claim data.,"F=0,Q=1","F=1,Q=0",SE
+lopo,B3,P05-240,P05,The user shall search for the preferred repair facility using vehicle vehicle location and radius in miles,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-241,P05,The vehicle data shall include vehicle year make and model,"F=0,Q=0","F=1,Q=0",F
+lopo,B3,P05-244,P05,The search radius shall be between 1 and 30 miles,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P05-245,P05,The system shall locate the preferred repair facility with the highest ratings for the input criteria,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-251,P05,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-253,P05,The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P05-255,P05,The available recycled parts information and their suppliers shall be returned to the user.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-257,P05,The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-267,P05,The audit report shall be available to other adjusters at later points in time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-270,P05,The system will display a blank set of ratings if there are not ratings yet defined.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P05-272,P05,The ratings shall be from a scale of 1-10,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P05-273,P05,The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts,"F=0,Q=0","F=0,Q=1",F
+lopo,B3,P05-275,P05,The preferred repair facility ratings shall be saved by the system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-285,P06,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P06-286,P06,The product shall allow the user to select a chosen language from one of the target market countries.,"F=1,Q=1","F=1,Q=0",US
+lopo,B3,P06-287,P06,The product shall allow for customization of start page and views preferences.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P06-290,P06,The product shall allow for intuitive searching of available conference rooms.,"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P06-294,P06,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,"F=1,Q=1","F=0,Q=1",FT
+lopo,B3,P06-316,P06,The product shall ensure that the database’s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P06-325,P06,The product shall have the ability to send meeting reminders to employees.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-328,P06,The product shall store new conference rooms.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-330,P06,The product will be able to delete conference rooms.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-331,P06,The product shall be able to store new room equipment.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P06-332,P06,The product will update existing room equipment.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P06-333,P06,The product shall be able to delete room equipment.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-336,P06,The product shall record the transportation status of equipment reserved.,"F=1,Q=0","F=0,Q=0",F
+lopo,B3,P06-337,P06,The product shall display a map of the company building showing conference room locations.,"F=1,Q=0","F=0,Q=0",F
+lopo,B3,P06-343,P06,The product shall record all the equipment that has been reserved.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-345,P06,The product will allow priviledged users to view meeting schedules in multiple reporting views.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-346,P06,The product shall be able to send meeting notifications via different kinds of end-user specified methods.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P06-347,P06,The product shall have a customizable Look and Feel.,"F=1,Q=1","F=0,Q=1",F
+lopo,B3,P06-349,P06,The product will display an available status for unreserved conference rooms.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P07-350,P07,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P07-353,P07,The System shall be able to automatically backup business data and restore them on demand.,"F=1,Q=1","F=1,Q=0",O
+lopo,B3,P07-359,P07,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P07-360,P07,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P07-362,P07,Product formulas shall allow use of semi-products which have own formulas.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P07-364,P07,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P07-366,P07,Product shall allow entering storing and modifying product menus used by POS terminals.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P07-368,P07,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,"F=0,Q=1","F=1,Q=0",F
+lopo,B3,P07-369,P07,PME Subsystem shall allow for a product to exist in more than one submenu,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P08-373,P08,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P08-378,P08,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P08-379,P08,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P08-382,P08,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B3,P08-389,P08,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P08-392,P08,The product shall retain the customer’s buying preferences and information.,"F=1,Q=1","F=1,Q=0",US
+lopo,B3,P08-393,P08,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P08-399,P08,While streaming a movie buffering should only occur if there is latency in the user’s connection.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B3,P08-403,P08,All movies shall be streamed on demand at any time of the day.,"F=1,Q=1","F=0,Q=1",A
+lopo,B3,P08-418,P08,Promotional updates to the website should take a day to update.,"F=0,Q=1","F=1,Q=1",MN
+lopo,B3,P08-421,P08,The system will provide a 24 hour 800 toll free number for support to its customers.,"F=0,Q=1","F=1,Q=0",A
+lopo,B3,P08-422,P08,The website will provide a help section with answers and solutions to common problems.,"F=1,Q=0","F=0,Q=1",US
+lopo,B3,P08-429,P08,Only authorized personnel can access sales information.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P08-431,P08,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P08-433,P08,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,"F=1,Q=1","F=0,Q=1",SE
+lopo,B3,P08-435,P08,The system shall reveal private information only in compliance with the organization’s information policy.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P08-441,P08,The website should appeal to all Africans not only Nigerians.,"F=0,Q=1","F=1,Q=1",LF
+lopo,B3,P08-442,P08,The website should use Flash to provide animation on the home page.,"F=0,Q=1","F=1,Q=1",O
+lopo,B3,P08-449,P08,shall be able to stream purchased movie via Windows Media Player for up to 2 days aftere purchase date.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P08-455,P08,Website shall allow customers to purchase pre-paid cards of $5 $10 or $20 value either by credit card or mail-in payment option.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P08-456,P08,System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P08-458,P08,Pre-paid cards shall be distributed via email or via a printed paper card.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P08-459,P08,Only registered customers can purchase streaming movies.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P08-460,P08,Movies can only be streamed if the customer has purchased a movie and is within the 2-day time period to stream the movie.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P08-461,P08,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P08-463,P08,All registered customer information shall be stored and maintained in the database even after the customer cancels their account.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P09-468,P09,For leads that process longer than 25 seconds the system will record the event and duration,"F=1,Q=0","F=1,Q=1",PE
+lopo,B3,P09-472,P09,Defect reports will be available to technical units on a 24x7 basis.,"F=0,Q=1","F=1,Q=1",A
+lopo,B3,P09-473,P09,Washing parameters will be updated during scheduled maintenance hours.,"F=0,Q=1","F=1,Q=1",MN
+lopo,B3,P09-476,P09,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P09-477,P09,The leads washing functionality will validate all leads received by the web service for valid data,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P09-478,P09,The leads washing functionality will insert all leads captured by the web service.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P09-479,P09,If the leads score falls within the high average score then it will be process by the ARA functionality.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P09-480,P09,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P09-483,P09,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P09-485,P09,The leads washing functionality will have an interface in which lead data parameters can be maintained.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P09-486,P09,The leads washing functionality will verify the users authentication and rights to make parameter updates.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P09-487,P09,The leads washing functionality will store any potential lead duplicates returned by the enterprise system.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-490,P10,The product shall simulate the look of ships at sea.,"F=0,Q=1","F=1,Q=1",LF
+lopo,B3,P10-491,P10,The product shall display the grids within a circle as a view from a periscope.,"F=0,Q=1","F=1,Q=0",LF
+lopo,B3,P10-492,P10,The product shall display each type of ship in a grid using an image of the specific type of ship.,"F=0,Q=1","F=1,Q=0",LF
+lopo,B3,P10-494,P10,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,"F=1,Q=1","F=1,Q=0",LF
+lopo,B3,P10-495,P10,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,"F=1,Q=1","F=1,Q=0",LF
+lopo,B3,P10-496,P10,When a ship is sunk the product shall simulate the sound of a sinking ship.,"F=1,Q=1","F=1,Q=0",LF
+lopo,B3,P10-500,P10,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B3,P10-502,P10,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P10-503,P10,The product shall provide players no access to information that might reveal the identity of another player,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P10-506,P10,The product shall allow a user to identify himself or herself as a player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-508,P10,The product shall allow a user to remove himself or herself from the list of players at any time.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-510,P10,The product shall remove players who have been inactive for 24 hours from the list of players.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-513,P10,Once a game is initiated the product shall display an offensive grid to each player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-514,P10,The product shall prevent a player from viewing the offensive or defensive grids of the other player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-515,P10,Once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids.,"F=1,Q=0","F=0,Q=1",F
+lopo,B3,P10-519,P10,The product shall prevent the player from overlapping ships on their grid.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-520,P10,When both players have positioned their 5 ships on their defensive grids the product shall define the status of each player for the first turn.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-521,P10,For each turn the product shall identify one player as offensive status and one player as defensive status.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-522,P10,The product shall maintain the status of each player for a turn either offensive or defensive.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-532,P10,When the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-537,P10,The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player’s ships which had not been previously marked as sunk.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P10-538,P10,The product shall allow a player to end a game at any time during the game.,"F=1,Q=0","F=1,Q=1",F
+lopo,B3,P12-556,P12,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,"F=1,Q=1","F=0,Q=1",LF
+lopo,B3,P12-558,P12,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P12-560,P12,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),"F=1,Q=1","F=0,Q=1",US
+lopo,B3,P12-561,P12,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P12-563,P12,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P12-565,P12,The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,"F=1,Q=1","F=0,Q=1",PE
+lopo,B3,P12-577,P12,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P13-584,P13,Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report),"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P13-586,P13,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),"F=0,Q=0","F=0,Q=1",US
+lopo,B3,P13-592,P13,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,"F=1,Q=1","F=0,Q=1",O
+lopo,B3,P13-594,P13,All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,"F=0,Q=1","F=1,Q=1",MN
+lopo,B3,P14-597,P14,Each team owner will need to use a username and password in order to be authenticated to reach the team owner’s page,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P14-598,P14,The Commissioner will be the only authorized user per league to adjust league settings.,"F=0,Q=1","F=1,Q=1",SE
+lopo,B3,P14-599,P14,Each page shall contain a navigation menu which shows the index into which the current page is contained.,"F=0,Q=1","F=1,Q=0",LF
+lopo,B3,P14-601,P14,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,"F=1,Q=0","F=1,Q=1",LF
+lopo,B3,P14-602,P14,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,"F=0,Q=1","F=1,Q=1",US
+lopo,B3,P14-603,P14,Users shall be able to reach the ‘add’ ‘drop’ and ‘trade player’ pages with one click from the team owner’s page.,"F=0,Q=1","F=1,Q=0",US
+lopo,B3,P14-604,P14,Users shall be able to view at least 25 NFL player statistics and points on each page.,"F=1,Q=1","F=1,Q=0",US
+lopo,B3,P14-606,P14,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,"F=0,Q=1","F=1,Q=1",PE
+lopo,B3,P14-610,P14,A secondary database will be used to store historical statistics and data.,"F=0,Q=1","F=1,Q=0",O
+lopo,B3,P15-617,P15,Changes to revenue and expense formulae must be applied to the RFS system every year prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance.,"F=0,Q=1","F=1,Q=1",MN
+ext:dronology,B3,DRO-000,dronology,The MapComponent shall support different types of map layers (e.g. terrain satellite),"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-001,dronology,The MissionPlanner shall execute flight plans for multiple UAVs concurrently.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-002,dronology,The GCS shall transmit the UAV's properties to the GCSMiddleware,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-003,dronology,The GCS shall transmit the UAV's current location to the GCSMiddleware,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-005,dronology,The GCS shall assign a message frequency for all UAVs.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-006,dronology,When the GCS receives a UAV command from the GCSMiddleware the GCS shall forward the command to the respective UAV.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-007,dronology,When the connection to the GCS from the GCSMiddleware is lost the GCSMiddleware shall notify Dronology and deactivate all associated UAVs.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-008,dronology,The GCSMiddleware shall forward commands sent from Dronology to a GCS,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-009,dronology,The GCSMiddleware shall handle state messages monitoring messages and mode change messages received from an GCS.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-010,dronology,The GCSMiddleware shall follow a predefined set of steps to establish a connection between a GCS and Dronology,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-011,dronology,The GCSMiddleware shall handle multiple GCS,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-012,dronology,The DronologyRuntimeMonitor shall be able to receive messages from any Dronology component,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-016,dronology,The RealTimeFlightUI shall allow users to follow one or multiple UAVs on the map.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-017,dronology,The RealTimeFlightUI shall allow users to perform emergency operations (e.g. hovering multiple UAVs sending multiple UAVs to home) to a group of UAVs,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-018,dronology,The RealTimeFlightUI shall allow users to apply flight operations to one or more selected UAVs.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-019,dronology,The RealTimeFlightUI shall display all currently active flight plans on the map.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-025,dronology,Each route shall include a unique ID a textual description and a set of waypoints all of which are editable in the UI.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-026,dronology,The RouteCreationUI shall only accept valid altitude and speed values for waypoint.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-034,dronology,When loading the map view it shall be positioned at the pre-defined location,"F=1,Q=1","F=0,Q=0",
+ext:dronology,B3,DRO-035,dronology,When the VaadinUI is activated the VaadinUI shall be configured according to stored configuration parameters.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-036,dronology,The UIMiddleware shall accept and activate a mission plan upon request.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-037,dronology,The UIMiddleware shall enable an existing route to be assigned to an active UAV.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-039,dronology,The UIMiddleware accepts commands from UIs and forwards to Dronology,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-042,dronology,The ActivityLogger shall log all commands sent to and messages received from a CGS.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-043,dronology,The ActivityLogger shall log all flight plan related events.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-044,dronology,The InternalSimulator shall approximate the state of the battery,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-048,dronology,The InternalSimulator shall approximate the behavior of a UAV.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-049,dronology,The UAVRegistrationManager shall store UAV meta-data information such as the UAV's technical characteristics,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-052,dronology,The VehicleCore shall support virtual UAVs,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-053,dronology,The VehicleCore shall support UAVs connected via the GCS,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-054,dronology,When a group of UAVs are assigned flight patterns as part of a mission the system shall provide a warning if any paths overlap.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-059,dronology,When requested the SingleUAVFlightPlanScheduler shall schedule a route for execution.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-065,dronology,When the hover in place command is issued the FlightManager shall halt the UAV in place and maintain its current position.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-070,dronology,The FlightRouteManager shall persist flight routes.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-073,dronology,When the GCS loses the connection to an UAV the GCS shall attempt to reconnect,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-075,dronology,When a GCS requests activation of a newly detected UAV the GCSMiddleware shall forward the request to Dronology.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-076,dronology,When a UAV has an active onboard Obstacle Avoidance then the ObstacleAvoidance system shall not issue directives,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-077,dronology,The ObjectAvoidance system only issues commands within the capabilities of the UAV,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-080,dronology,The RealTimeFlightUI shall display the location of active UAVs as icons on the map.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-081,dronology,When the RealTimeFlightUI is loaded a map shall be displayed.,"F=1,Q=0","F=1,Q=1",
+ext:dronology,B3,DRO-083,dronology,The UIMiddleware shall only assign one control-client at a time for each UAV.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-091,dronology,The VehicleCore shall associate a {{UAVTYPE}} for each UAV defining its basic attributes.,"F=1,Q=0","F=0,Q=1",
+ext:dronology,B3,DRO-092,dronology,The UAVActivationManager shall ensure that only one instance of each registered drone is active at any time.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-093,dronology,The SingleUAVFlightPlanScheduler shall only execute one flight plan at a time for each UAV.,"F=1,Q=1","F=0,Q=1",
+ext:dronology,B3,DRO-094,dronology,The VehicleCore shall assign a unique ID to each activated UAV.,"F=1,Q=1","F=1,Q=0",
+ext:dronology,B3,DRO-096,dronology,When requested the VehicleCore shall shall transition the UAV between states according to allowed state transitions as depicted in the UAV state transition diagram,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B3,LEE-000,leeds,The system must offer customisable metadata schema.,"F=0,Q=1","F=1,Q=1",
+ext:leeds,B3,LEE-003,leeds,"The system must ingest and store metadata at a data object level, where a data object is a folder that contains one or more files","F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-004,leeds,The system must support multiple files types including multimedia.,"F=0,Q=1","F=1,Q=1",
+ext:leeds,B3,LEE-006,leeds,"The system must support controlled lists against some metadata fields, either held locally or drawn from an external source e.g. Subject vocabularies","F=0,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-008,leeds,The system must support staged deposit workflow including an administrative area for quality checking prior to data publication.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-010,leeds,The system must enable extraction of metadata and data in an open format e.g. to enable migration to another repository platform.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B3,LEE-012,leeds,The system should support different types of relationship within and between data sets e.g. IsVersionOf; Is Part Of; References etc. and support navigation between related datasets.,"F=1,Q=0","F=0,Q=1",
+ext:leeds,B3,LEE-014,leeds,"The system should support customisation of out of the box help text and provide context sensitive feedback for the re-user to support search, navigation and re-use.","F=0,Q=1","F=1,Q=1",
+ext:leeds,B3,LEE-017,leeds,The system should auto-generate preservation metadata.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-019,leeds,"The system should display file size, format and software application and version for re-users","F=1,Q=0","F=0,Q=1",
+ext:leeds,B3,LEE-020,leeds,The system must support technical metadata related to specific files or datasets.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-024,leeds,The system could visualise and process data within the repository system.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-025,leeds,"The system should unpack a range of file archive formats (e.g. Zip, tar, gz, bz) to allow navigation through the archive folder structure and selective download","F=1,Q=1","F=1,Q=0",
+ext:leeds,B3,LEE-026,leeds,The system could support optional end user alerts e.g.to be notified of data change or new versions.,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B3,LEE-027,leeds,The system must enable depositor and repository manager to specify granular access rights to the deposited data files at collection and data object level.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B3,LEE-029,leeds,"The system must support embargo options for metadata and/or associated files at collection, data object and file level.","F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-031,leeds,The system must enable immediate access to and download of datasets where available,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B3,LEE-036,leeds,The system must support permanent data destruction to meet any legal or ethical requirements.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B3,LEE-042,leeds,The system should support reporting by funder to confirm a particular funder's open access data / deposit requirement has been met.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-043,leeds,The system should generate reports on repository content growth pattern over time.,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-046,leeds,"The system must report on number and speed of data downloads and log number of data requests. Reports should be possible over specified periods of time and against specified subsets of the repository (by Funder, by Creator, by academic unit).","F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-048,leeds,The system must allow creation of repository roles with different editing rights.,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B3,LEE-049,leeds,The system must allow specification of mandatory metadata fields.,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B3,LEE-050,leeds,The system should retain history of changes to metadata fields,"F=1,Q=1","F=1,Q=0",
+ext:leeds,B3,LEE-051,leeds,The system must possess a field for multiple data owners over time (previous owners should not be overwritten).,"F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-054,leeds,"The system should be able to support externally managed unique entities e.g. identifiers such as ORCID, ResearcherID","F=1,Q=1","F=1,Q=0",
+ext:leeds,B3,LEE-055,leeds,The system could display linked data from other systems using open standards.,"F=1,Q=1","F=0,Q=1",
+ext:leeds,B3,LEE-057,leeds,"The system could supply data to research management systems (for example, to enable reporting against the percentage of projects with data associated, analysable by Funder and academic unit).","F=1,Q=0","F=1,Q=1",
+ext:leeds,B3,LEE-075,leeds,"The system should provide an appropriate method of ensuring the integrity of datasets, such as checksums","F=0,Q=1","F=1,Q=1",
+ext:reqview,B3,REQ-010,reqview,"The template file shall contain information about document structure, definition of custom attributes and traceability definition","F=1,Q=0","F=0,Q=1",
+ext:reqview,B3,REQ-012,reqview,User shall be able to encrypt saved file by a strong industry standard encryption and with a user defined password,"F=1,Q=1","F=0,Q=1",
+ext:reqview,B3,REQ-013,reqview,User shall be able to authorize ReqView with his Google Drive,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-014,reqview,User shall be able to open a document stored on user's Google Drive by providing its name,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-015,reqview,User shall be able to save the current document to user's Google Drive providing its name and password for encryption,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-016,reqview,User shall be able to upload a new version of a document opened from user's Google drive,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-017,reqview,User shall be able to import a structured requirements document from MS Word,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-018,reqview,User shall be able to import a table from MS Excel,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-019,reqview,User shall be able to export document to PDF with the same layout as displayed in the Requirements Table,"F=1,Q=1","F=0,Q=1",
+ext:reqview,B3,REQ-020,reqview,User shall be able to export ReqView document to HTML using a custom template,"F=1,Q=1","F=0,Q=1",
+ext:reqview,B3,REQ-021,reqview,User shall be able to export ReqView document to MS Word,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-022,reqview,User shall be able to show and hide Table of Contents (TOC) containing overall document structure visualized as a tree,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-023,reqview,User shall be able to navigate in the document by clicking at TOC sections,"F=1,Q=0","F=0,Q=0",
+ext:reqview,B3,REQ-029,reqview,User shall be able to change width of each column in the Requirements Table,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-030,reqview,User shall be able to show / hide each Requirements Table column except ID and Description columns,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-031,reqview,User shall be able to sort all columns of the Requirements Table except Discussion and Links column by ascending or descending order. Description column shall be sorted only ascending by document hierarchy order.,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-047,reqview,"User shall be able to edit requirement text description using following rich text formatting: bold, italic, underline or strikethrough text; numbered list; bullet list; increase or decrease list indent; URL link","F=1,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-048,reqview,User shall be able to define custom object attributes presented as extra columns in the Requirements Table,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-049,reqview,"Each custom object attribute shall have one of following types: bool, int, real, string, date, enum, xhtml","F=0,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-051,reqview,Each custom object attribute can be set as read only in which case user shall be prevented of changing its value for any requirement,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-056,reqview,User shall be able to open chosen attached PDF document in the browser,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-066,reqview,User shall be able to input up to 10 filtering criterions. Each criterion can be a text keyword or name of attribute with the matched value,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-067,reqview,"Criterions can be connected into logical clauses using AND, OR and NOT operators","F=1,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-071,reqview,The document words shall be matched if they have the same prefix as an input keyword without respecting the case,"F=1,Q=0","F=1,Q=1",
+ext:reqview,B3,REQ-073,reqview,The application shall show change indicator for requirements changed from the version stored in the opened ReqView document,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-074,reqview,Each change to any of requirement attributes shall be saved into History of Changes,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-075,reqview,"ReqView shall track for each change information about change date, reviewer, changed attribute name and changed attribute original value and value after the modification","F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-078,reqview,User shall be able to export the printout to PDF,"F=1,Q=1","F=1,Q=0",
+ext:reqview,B3,REQ-082,reqview,Response time for common edit operations (change attributes and structure) shall be less than 1s.,"F=0,Q=1","F=1,Q=1",
+ext:wasp,B3,WAS-000,wasp,There should be an application that provides functionality for mobile users to propose and schedule meetings.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-003,wasp,The WASP platform must provide services that may be used by a WASP application to charge the user for using one of his services.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-004,wasp,The WASP platform must allow end-users to provide profile and context information explicitly to applications or the platform.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-005,wasp,A user's profile must contain at least one charging point for a specific user.,"F=0,Q=0","F=1,Q=0",
+ext:wasp,B3,WAS-007,wasp,The WASP platform shall provide functionality to find points of interest that match the user's explicit need and obey the restrictions following from the user's profile and current context.,"F=1,Q=1","F=1,Q=0",
+ext:wasp,B3,WAS-009,wasp,"The WASP platform must allow end-users to place triggers in the platform to be alerted automatically for a certain type of services and events, based on his/her context.","F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-011,wasp,The WASP platform shall provide functionality to find services that match the user's explicit need and obey the restrictions following from the user's profile and current context. For the found services the WASP platform shall provide (links to) the service profiles.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-013,wasp,The WASP platform shall provide functionality for end-users to communicate with their buddies.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-015,wasp,"The WASP platform shall be able to update status and location information of buddies in the user's buddy list based either on request of the user, after login into the WASP platform and at a regular interval.","F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-018,wasp,A WASP application shall be able to setup a phone call connection using the 3G Platform via the WASP platform.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B3,WAS-022,wasp,The WASP platform must be able to collect profile and context information on the user from multiple sources.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-025,wasp,The WASP platform must be able to retrieve status information from the 3G Platform.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-026,wasp,The WASP platform must be able to retrieve location information from the 3G Platform.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-027,wasp,It must be possible for a WASP application to send out messages to users using the WASP platform.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-028,wasp,"A WASP application should be able to automatically adapt content and the presentation of functionality to the user's device, for which the WASP platform may offer some generic adaptation services.","F=1,Q=1","F=0,Q=1",
+ext:wasp,B3,WAS-029,wasp,The WASP platform must be able to combine knowledge about the end-user (in terms of profile and context) and a specific information request into a search query on the service registry.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-035,wasp,The WASP platform should be able to provide the end-user with walking or driving instructions.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-037,wasp,The platform must be able to access points of interests and services from a map.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-038,wasp,"The WASP platform should be able to calculate a route between two or more arbitrarily chosen points, avoiding traffic jams or construction works.","F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-039,wasp,"The WASP platform should have access to information about traffic jams and construction works, as well as suggested alternative routes.","F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-049,wasp,"If the user cannot be notified of the event the first time, the WASP platform should retry to notify the user of the occurrence of the event, until the user has been notified or a specified time-out elapses.","F=1,Q=1","F=1,Q=0",
+ext:wasp,B3,WAS-051,wasp,The WASP platform must maintain authentication credentials per user.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B3,WAS-052,wasp,The WASP platform should be able to request the user's ID from the 3G platform.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-053,wasp,The WASP platform should have a (limited) number of classification schemes for POIs and services.,"F=1,Q=1","F=0,Q=1",
+ext:wasp,B3,WAS-054,wasp,The WASP platform must have a (web-based) form to specify simple POI and service profiles.,"F=1,Q=0","F=0,Q=1",
+ext:wasp,B3,WAS-057,wasp,The WASP platform must allow for users to have different roles.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-058,wasp,Profiles must have associated expiry dates. The registry must check for their existence and should enforce them. The registry may supply a default expiry date if none was specified.,"F=1,Q=0","F=1,Q=1",
+ext:wasp,B3,WAS-059,wasp,"Services must have associated schedule information (this service is available weekdays from 8:00 till 16:00), a service may be available 24/7. The registry must check for their existence, it may supply a default schedule if none was specified.","F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC10E1-000,iTrust,The health care professional types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC10E2-001,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC10E2-002,iTrust,The health care professional does not confirm the selection and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC11E1-009,iTrust,The HCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC11E2-010,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC11S1-014,iTrust,The HCP 's medical identification number should also be maintained,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC11S1-015,iTrust,Additionally the HCP can document none one or more medications NDC see Data Format prescribed S none one or more lab procedures that are ordered LOINC code see Data Format UC none one or more diagnoses via the ICD- CM code none one or more medical procedures CPT code performed and none one or more immunizations given CPT Code see UC S chosen from appropriate pull-down lists,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC12-020,iTrust,The software tester authenticates himself or herself in the i Trust Medical Records system UC,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC12-021,iTrust,He or she is then presented with the actual operational profile of the operations of the i Trust Medical Records where the use percentage is the of total transactions for each particular transaction logging type broken-down by each of the user types patient LHCP UHCP admin tester,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC13E1-023,iTrust,The health care personnel types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC15E1-024,iTrust,The administrator types an invalid code information and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC15S1-026,iTrust,The administrator will store the CPT code The CPT code set accurately describes medical surgical and diagnostic services and is designed to communicate uniform information about medical services and procedures among physicians coders patients accreditation organizations and payers for administrative financial and analytical purposes,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC15S1-027,iTrust,About CPT E and up to alpha characters giving the name E of the immunization,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC15S3-032,iTrust,The administrator will store the National Drug Code The National Drug Code NDC is a universal product identifier used in the United States for drugs intended for human use,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC15S4-035,iTrust,The administrator will store information of a LOINC code Logical Observation Identifiers Names and Codes LOINC is a database and universal standard for identifying medical laboratory observations,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC15S4-036,iTrust,LOINC co Medical Informatics E according to Data Format,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC17S1-043,iTrust,An alive patient who has not had an office visit for more than one year and who has been diagnosed with diabetes mellitus is diagnosed with ICD code beginning with asthma is diagnosed with ICD code beginning with or circulatory-system disease is diagnosed with an ICD code between and inclusive,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC17S2-044,iTrust,An alive patient over years old who has not had a flu shot CPT codes per http wwwinfluenzacomindexcfm fa ADDITIONALRESHC during the months Sept - Dec of the last calendar year or during the months Sept - Dec of the current calendar year if the retrieval time is between Sept - Dec,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC17S3-046,iTrust,The catch up schedule is relevant when the patient did not begin the immunizations according to the recommended schedule,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC18S2-051,iTrust,Note that the administrator is not allowed through the system interface to delete an existing entry or modify the hospital ID number in an existing entry,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC19E1-052,iTrust,The LHCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC19E2-053,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC19E2-054,iTrust,The LHCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC1E1-061,iTrust,The system prompts the enterereditor to correct the format of a required data field because the input of that data field does not match that specified in data format for patients,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC1E2-062,iTrust,The enterereditor is presented with the name of the user and determines if it is invalid or not the right person,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC1S1-065,iTrust,Only the name and email are is provided,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC1S1-066,iTrust,The patient 's assigned MID and a secret key the initial password is personally provided to the user with which the user can reset hisher password,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC1S1-069,iTrust,The HCP does not have the ability to entereditview the patient 's security questionpassword,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC21E1-072,iTrust,The LHCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC21E2-073,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC21E2-074,iTrust,The LHCP or ER does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC22E2-077,iTrust,The comment is empty and the text No Comment without link is displayed instead of the Read Comment link,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC22S1-079,iTrust,A new entry shall not have the same type name as that of any existing entry E,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC22S1-080,iTrust,Note that the administrator is not allowed through the system interface to delete an existing entry or modify the appointment type name in an existing entry,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC23E2-091,iTrust,The chosen patient is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC23E2-092,iTrust,The LHCP does not confirm the selection and can try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC23S3-095,iTrust,All patient demographic information address phone etc see UC and Data Format The entire history of personal health records see UC and Data Format All diagnoses including those not normally viewable by the requesting LHCP see UC and Data Format All designated HC Ps MI Ds and Names see UC All allergies procedures medications office visits and known relatives see UC and Data Format All MI Ds and names of people that this person is representing see UC All MI Ds and names of people that this person is represented by see UC,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC24-098,iTrust,How many minutes did you wait in the waiting room,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC24-099,iTrust,How many minutes did you wait in the examination room before seeing your physician,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC24-100,iTrust,How satisfied were you with your office visit,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC25E1-106,iTrust,The input is not a valid zip code see Data Format,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC26E1-108,iTrust,The lab procedure code is not the intended lab procedure code,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC26E2-110,iTrust,The selected Lab Technician is not the intended Lab Technician,"F=0,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC27S1-124,iTrust,The user has successfully changed hisher password UC S,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC29-131,iTrust,A patient has just been diagnosed with a condition and wants to find the LHC Ps in the area who have handled that condition,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC29-133,iTrust,The patient can select a diagnosis and will be presented with the LHC Ps in the patient 's living area based upon the first three numbers of their zip code who have handled this diagnosis in the last three years,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC2E2-136,iTrust,The enterereditor is presented with the name of the user and determines if it is invalid or not the right person,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC2S1-138,iTrust,An administrator enters a LHCP ER or public health agent as a user of i Trust Medical Records system initially only the name and email are provided,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC2S1-141,iTrust,The data for personnel can be edited according to Data Format all fields mandatory except for associated MID and Street Address S E,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC2S1-143,iTrust,The hospital ID numbers for a LHCP are stored in the Medical Care Personnel Affiliation database data format,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC2S1-145,iTrust,The hospital ID numbers for a LT are stored in the Medical Care Personnel Affiliation database data format,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC2S2-146,iTrust,A LHCP enters an UAP as a user of i Trust Medical Records system according to data format all fields mandatory,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC30E1-147,iTrust,The HCP types an invalid medical identification number and is prompted to try again,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC30E2-148,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC30E2-149,iTrust,The HCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC30S1-151,iTrust,The patientrepresentative is presented with a pull down menu of hisher DLHCP,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC30S3-163,iTrust,A patient or patient representative wishes to reply to a message,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC30S4-170,iTrust,An LHCP wishes to reply to a message,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC30S5-177,iTrust,A user a patient patient representative or LHCP wishes to read a message from the message inbox or outbox,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC30S5-183,iTrust,After a message in the message inbox is read ie displayed in a new page the row for the message in the message inbox is not bolded anymore,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC30S6-186,iTrust,To do so a user selects one option out of the Sort by labeled drop-down box with options of Sender Recipient or Timestamp and selects one option out of the by order of labeled drop-down box with options of ascending or descending and then click the Sort button,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC30S6-187,iTrust,Note that the sorted order is not saved for later viewing after the message inbox or outbox is reopened again where the default sorting is always used,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC30S7-189,iTrust,The user interface shall provide both the option of typing in a specific date in the date format and the option of selecting a date from a calendar for the current month,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC30S7-190,iTrust,Note that a single filter includes values for these five filtering criteria rather than five filters for these five filtering criteria and a value could be an empty string indicating that this criterion has no impact on filtering ie imposing no constraints related to this criterion,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC30S7-193,iTrust,Each user is associated with only one filter being saved across login sessions and applies only this saved filter,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC32S1-200,iTrust,A chronic special-diagnosis-history patient is an alive patient who has been diagnosed with at least one of the following diabetes mellitus is diagnosed with ICD code beginning with asthma is diagnosed with ICD code beginning with or circulatory-system disease is diagnosed with an ICD code between and inclusive,"F=0,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC32S2-201,iTrust,The patient list is titled with the HCP 's name,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC32S2-205,iTrust,The list is a static list with no link on the patient 's name phone number or contact email address,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC34E1-221,iTrust,The patient chosen is not the desired patient,"F=0,Q=0","F=1,Q=0",
+ext:iTrust,B3,IT-UC34E1-222,iTrust,The HCP does not confirm the selection and is prompted to try again,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC34E2-223,iTrust,The patient UAP or personal representative enters a systolic blood pressure outside the range - or a diastolic blood pressure outside the range -,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC34E4-227,iTrust,The patient UAP or personal representative tries to enter more than ten physiologic data points for one day and is told additional data can not be entered,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC34S1-233,iTrust,By default all types of information are selected for monitoring,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC34S3-237,iTrust,An LHCP chooses to view the physiologic data monitoring details,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC34S3-239,iTrust,Patients with no information for the current day are highlighted,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC34S3-240,iTrust,Patients with blood pressure or glucose level out of range are highlighted normal blood pressure systolic - diastolic - normal glucose -,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC34S5-250,iTrust,Only the applicable input entries those whose corresponding data types of the patient are specified to be under monitoring are displayed to the UAP,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC34S6-256,iTrust,Only the applicable input entries those whose corresponding data types of the patient are specified to be under monitoring are displayed to the patient,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC38S1-281,iTrust,The administer is presented with two lists of NDC codesnames,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC3E1-285,iTrust,The user may try three times,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC3E1-286,iTrust,After three failed attempts with a userid in a given session disallow attempts to log in via IP address for minutes see comments in the source code,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC3S1-288,iTrust,If the security questionanswer has been set it is not null E present security question and obtain answer,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC3S3-291,iTrust,Electronic sessions must terminate after a pre-determined period of inactivity,"F=1,Q=1","F=1,Q=0",
+ext:iTrust,B3,IT-UC3S3-292,iTrust,Allow the administrator to set the length of this period of time and ensure that all authorization is disabled after a period of inactivity that exceeds this length,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC3S4-293,iTrust,A LHCP is presented with a screen of links to the following Recent Laboratory Results recent within the last month laboratory results UC for laboratory procedures heshe ordered in office visits any upcoming appointments for the day,"F=1,Q=0","F=0,Q=1",
+ext:iTrust,B3,IT-UC4S1-318,iTrust,When answer to the security question is typed in the answer should not appear on the screen similar to how a password normally appears and the answer should be confirmed by the patient or personal health representative before it is saved,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC5S1-322,iTrust,For Login Failures the IP Address of the machine transaction type and timestamp are recorded,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC6S1-324,iTrust,The LHCP 's name specialty address date of office visit and whether or not the LHCP is a DLHCP for this patient is indicated,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC6S2-326,iTrust,The patient can choose to toggle between designatingundesignating any LHCP as being a DLHCP for them,"F=1,Q=0","F=1,Q=1",
+ext:iTrust,B3,IT-UC6S3-327,iTrust,The patient types a last name or partial last name andor providing the specialty,"F=1,Q=0","F=0,Q=0",
+ext:iTrust,B3,IT-UC6S3-329,iTrust,The LHCP 's name specialty and address are provided,"F=1,Q=0","F=0,Q=0",

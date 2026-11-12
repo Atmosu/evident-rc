@@ -1,0 +1,103 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "backend": "hf",
+ "decoding": "constrained",
+ "prompt_hash": "417c1f1ebb8a",
+ "split": "dev",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": false,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 13.6,
+ "python": "3.13.18",
+ "torch": "2.15.0",
+ "device": "mps",
+ "gpu": null,
+ "folds": {
+  "P02": {
+   "val_project": "P03",
+   "n_train": 505,
+   "n_test": 40,
+   "gen_s": 466.2,
+   "items": 40,
+   "items_with_prediction": 26,
+   "sample_verified_rate": 0.31,
+   "L1_exact_acc": 0.769,
+   "FQ_items": 8,
+   "FQ_both_correct": 2,
+   "mean_confidence": 0.305,
+   "needs_review": 29,
+   "sample_reasons": {
+    "ok": 62,
+    "Q_span_full": 8,
+    "Q_span_not_substring": 16,
+    "F_span_too_long": 20,
+    "F_span_full": 50,
+    "Q_span_missing": 27,
+    "Q_span_too_long": 8,
+    "F_span_missing": 8,
+    "F_span_not_substring": 1
+   },
+   "verified_vs_plain_same_prediction": 25
+  },
+  "P04": {
+   "val_project": "P05",
+   "n_train": 497,
+   "n_test": 55,
+   "gen_s": 722.3,
+   "items": 55,
+   "items_with_prediction": 45,
+   "sample_verified_rate": 0.549,
+   "L1_exact_acc": 0.444,
+   "FQ_items": 9,
+   "FQ_both_correct": 2,
+   "mean_confidence": 0.498,
+   "needs_review": 27,
+   "sample_reasons": {
+    "F_span_missing": 1,
+    "Q_span_not_substring": 19,
+    "F_span_full": 44,
+    "Q_span_full": 9,
+    "ok": 151,
+    "Q_span_missing": 12,
+    "Q_span_too_long": 7,
+    "F_span_not_substring": 15,
+    "F_span_too_long": 17
+   },
+   "verified_vs_plain_same_prediction": 44
+  }
+ },
+ "overall": {
+  "items": 95,
+  "items_with_prediction": 71,
+  "sample_verified_rate": 0.448,
+  "L1_exact_acc": 0.563,
+  "FQ_items": 17,
+  "FQ_both_correct": 4,
+  "mean_confidence": 0.417,
+  "needs_review": 56,
+  "sample_reasons": {
+   "ok": 213,
+   "Q_span_full": 17,
+   "Q_span_not_substring": 35,
+   "F_span_too_long": 37,
+   "F_span_full": 94,
+   "Q_span_missing": 39,
+   "Q_span_too_long": 15,
+   "F_span_missing": 9,
+   "F_span_not_substring": 16
+  },
+  "verified_vs_plain_same_prediction": 69
+ }
+}

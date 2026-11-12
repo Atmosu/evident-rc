@@ -1,0 +1,12 @@
+# Mac / CPU / HF-backend environment (versions used for the verified pilot rerun and the Mac sample run)
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1
+torch==2.15.0
+transformers==5.22.1
+safetensors==0.8.0
+xgrammar==0.2.8
+jsonschema
+scipy
+matplotlib
+openpyxl==3.1.5

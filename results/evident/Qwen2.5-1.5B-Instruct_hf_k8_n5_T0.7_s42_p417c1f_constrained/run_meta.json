@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "backend": "hf",
+ "decoding": "constrained",
+ "prompt_hash": "417c1f1ebb8a",
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 2,
+ "load_s": 8.1,
+ "python": "3.13.18",
+ "torch": "2.15.0",
+ "device": "mps",
+ "gpu": null,
+ "folds": {
+  "P03": {
+   "val_project": "P04",
+   "n_train": 490,
+   "n_test": 2,
+   "gen_s": 15.7,
+   "items": 2,
+   "items_with_prediction": 2,
+   "sample_verified_rate": 0.8,
+   "L1_exact_acc": 0.5,
+   "FQ_items": 2,
+   "FQ_both_correct": 1,
+   "mean_confidence": 0.6,
+   "needs_review": 0,
+   "sample_reasons": {
+    "ok": 8,
+    "F_span_not_substring": 1,
+    "attribute_missing": 1
+   }
+  }
+ },
+ "overall": {
+  "items": 2,
+  "items_with_prediction": 2,
+  "sample_verified_rate": 0.8,
+  "L1_exact_acc": 0.5,
+  "FQ_items": 2,
+  "FQ_both_correct": 1,
+  "mean_confidence": 0.6,
+  "needs_review": 0,
+  "sample_reasons": {
+   "ok": 8,
+   "F_span_not_substring": 1,
+   "attribute_missing": 1
+  }
+ }
+}

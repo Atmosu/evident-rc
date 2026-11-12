@@ -1,0 +1,293 @@
+{
+ "model": "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+ "backend": "hf",
+ "quant": "4bit",
+ "variant": "noevidence",
+ "decoding": "constrained",
+ "prompt": "v4",
+ "prompt_hash": "65a137cd039c",
+ "split": "eval",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": true,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 3.2,
+ "python": "3.12.3",
+ "torch": "2.15.0+cu132",
+ "device": "cuda",
+ "gpu": "GRID A100X-10C",
+ "folds": {
+  "P01": {
+   "val_project": "P02",
+   "n_train": 557,
+   "n_test": 28,
+   "gen_s": 66.4,
+   "items": 28,
+   "items_with_prediction": 28,
+   "sample_verified_rate": 0.971,
+   "L1_exact_acc": 0.536,
+   "FQ_items": 7,
+   "FQ_both_correct": 4,
+   "mean_confidence": 0.871,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 136,
+    "attribute_missing": 4
+   },
+   "verified_vs_plain_same_prediction": 27
+  },
+  "P03": {
+   "val_project": "P04",
+   "n_train": 490,
+   "n_test": 80,
+   "gen_s": 184.2,
+   "items": 80,
+   "items_with_prediction": 80,
+   "sample_verified_rate": 0.99,
+   "L1_exact_acc": 0.675,
+   "FQ_items": 4,
+   "FQ_both_correct": 2,
+   "mean_confidence": 0.825,
+   "needs_review": 6,
+   "sample_reasons": {
+    "ok": 396,
+    "attribute_missing": 4
+   },
+   "verified_vs_plain_same_prediction": 80
+  },
+  "P05": {
+   "val_project": "P06",
+   "n_train": 478,
+   "n_test": 73,
+   "gen_s": 164.9,
+   "items": 73,
+   "items_with_prediction": 73,
+   "sample_verified_rate": 0.997,
+   "L1_exact_acc": 0.685,
+   "FQ_items": 5,
+   "FQ_both_correct": 5,
+   "mean_confidence": 0.885,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 364,
+    "explanation_len": 1
+   },
+   "verified_vs_plain_same_prediction": 73
+  },
+  "P06": {
+   "val_project": "P07",
+   "n_train": 528,
+   "n_test": 74,
+   "gen_s": 168.7,
+   "items": 74,
+   "items_with_prediction": 74,
+   "sample_verified_rate": 0.997,
+   "L1_exact_acc": 0.568,
+   "FQ_items": 6,
+   "FQ_both_correct": 5,
+   "mean_confidence": 0.83,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 369,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 74
+  },
+  "P07": {
+   "val_project": "P08",
+   "n_train": 509,
+   "n_test": 23,
+   "gen_s": 55.6,
+   "items": 23,
+   "items_with_prediction": 23,
+   "sample_verified_rate": 1.0,
+   "L1_exact_acc": 0.565,
+   "FQ_items": 2,
+   "FQ_both_correct": 2,
+   "mean_confidence": 0.748,
+   "needs_review": 3,
+   "sample_reasons": {
+    "ok": 115
+   },
+   "verified_vs_plain_same_prediction": 23
+  },
+  "P08": {
+   "val_project": "P09",
+   "n_train": 508,
+   "n_test": 93,
+   "gen_s": 216.2,
+   "items": 93,
+   "items_with_prediction": 93,
+   "sample_verified_rate": 0.998,
+   "L1_exact_acc": 0.613,
+   "FQ_items": 19,
+   "FQ_both_correct": 19,
+   "mean_confidence": 0.854,
+   "needs_review": 6,
+   "sample_reasons": {
+    "ok": 464,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 93
+  },
+  "P09": {
+   "val_project": "P10",
+   "n_train": 548,
+   "n_test": 24,
+   "gen_s": 55.8,
+   "items": 24,
+   "items_with_prediction": 24,
+   "sample_verified_rate": 0.975,
+   "L1_exact_acc": 0.583,
+   "FQ_items": 0,
+   "FQ_both_correct": 0,
+   "mean_confidence": 0.742,
+   "needs_review": 5,
+   "sample_reasons": {
+    "ok": 117,
+    "attribute_missing": 3
+   },
+   "verified_vs_plain_same_prediction": 23
+  },
+  "P10": {
+   "val_project": "P11",
+   "n_train": 559,
+   "n_test": 53,
+   "gen_s": 123.1,
+   "items": 53,
+   "items_with_prediction": 53,
+   "sample_verified_rate": 0.981,
+   "L1_exact_acc": 0.736,
+   "FQ_items": 5,
+   "FQ_both_correct": 1,
+   "mean_confidence": 0.857,
+   "needs_review": 2,
+   "sample_reasons": {
+    "ok": 260,
+    "attribute_missing": 4,
+    "explanation_len": 1
+   },
+   "verified_vs_plain_same_prediction": 52
+  },
+  "P11": {
+   "val_project": "P12",
+   "n_train": 590,
+   "n_test": 13,
+   "gen_s": 32.2,
+   "items": 13,
+   "items_with_prediction": 13,
+   "sample_verified_rate": 0.985,
+   "L1_exact_acc": 0.615,
+   "FQ_items": 3,
+   "FQ_both_correct": 3,
+   "mean_confidence": 0.892,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 64,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 13
+  },
+  "P12": {
+   "val_project": "P13",
+   "n_train": 584,
+   "n_test": 22,
+   "gen_s": 51.5,
+   "items": 22,
+   "items_with_prediction": 22,
+   "sample_verified_rate": 1.0,
+   "L1_exact_acc": 0.545,
+   "FQ_items": 8,
+   "FQ_both_correct": 8,
+   "mean_confidence": 0.845,
+   "needs_review": 0,
+   "sample_reasons": {
+    "ok": 110
+   },
+   "verified_vs_plain_same_prediction": 22
+  },
+  "P13": {
+   "val_project": "P14",
+   "n_train": 590,
+   "n_test": 19,
+   "gen_s": 46.0,
+   "items": 19,
+   "items_with_prediction": 19,
+   "sample_verified_rate": 0.989,
+   "L1_exact_acc": 0.421,
+   "FQ_items": 3,
+   "FQ_both_correct": 3,
+   "mean_confidence": 0.789,
+   "needs_review": 2,
+   "sample_reasons": {
+    "ok": 94,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 19
+  },
+  "P14": {
+   "val_project": "P15",
+   "n_train": 597,
+   "n_test": 16,
+   "gen_s": 37.8,
+   "items": 16,
+   "items_with_prediction": 16,
+   "sample_verified_rate": 0.988,
+   "L1_exact_acc": 0.25,
+   "FQ_items": 1,
+   "FQ_both_correct": 1,
+   "mean_confidence": 0.762,
+   "needs_review": 3,
+   "sample_reasons": {
+    "ok": 79,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 16
+  },
+  "P15": {
+   "val_project": "P01",
+   "n_train": 585,
+   "n_test": 12,
+   "gen_s": 30.8,
+   "items": 12,
+   "items_with_prediction": 12,
+   "sample_verified_rate": 1.0,
+   "L1_exact_acc": 0.5,
+   "FQ_items": 0,
+   "FQ_both_correct": 0,
+   "mean_confidence": 0.75,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 60
+   },
+   "verified_vs_plain_same_prediction": 12
+  }
+ },
+ "overall": {
+  "items": 530,
+  "items_with_prediction": 530,
+  "sample_verified_rate": 0.992,
+  "L1_exact_acc": 0.608,
+  "FQ_items": 63,
+  "FQ_both_correct": 53,
+  "mean_confidence": 0.835,
+  "needs_review": 32,
+  "sample_reasons": {
+   "ok": 2628,
+   "attribute_missing": 20,
+   "explanation_len": 2
+  },
+  "verified_vs_plain_same_prediction": 527
+ }
+}

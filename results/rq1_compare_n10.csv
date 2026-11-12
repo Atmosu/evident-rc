@@ -1,0 +1,10 @@
+metric,baseline,EVIDENT-RC,baseline_value,difference,ci_low,ci_high,p_boot,p_holm,CI_excludes_0
+FQ_F1,TF-IDF + SVM,0.316,0.138,0.178,0.043,0.289,0.0094,0.0282,True
+exact_match,TF-IDF + SVM,0.557,0.575,-0.019,-0.143,0.075,0.6768,0.6768,False
+FQ_FPR,TF-IDF + SVM,0.435,0.182,0.253,0.155,0.392,0.0,0.0,True
+FQ_F1,MiniLM frozen + LR,0.316,0.182,0.135,-0.048,0.268,0.1438,0.2876,False
+exact_match,MiniLM frozen + LR,0.557,0.658,-0.102,-0.202,-0.015,0.0228,0.0456,True
+FQ_FPR,MiniLM frozen + LR,0.435,0.101,0.334,0.261,0.431,0.0,0.0,True
+FQ_F1,MiniLM fine-tuned,0.316,0.31,0.006,-0.077,0.087,0.8706,0.8706,False
+exact_match,MiniLM fine-tuned,0.557,0.683,-0.126,-0.214,-0.059,0.0,0.0,True
+FQ_FPR,MiniLM fine-tuned,0.435,0.18,0.255,0.168,0.361,0.0,0.0,True

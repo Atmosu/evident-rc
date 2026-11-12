@@ -1,0 +1,289 @@
+gold,pred,count,set,model
+F only,F only,201,random,B1
+Q only,F only,13,random,B1
+F+Q,F only,8,random,B1
+neither,F only,5,random,B1
+F only,Q only,12,random,B1
+Q only,Q only,257,random,B1
+F+Q,Q only,30,random,B1
+neither,Q only,3,random,B1
+F only,F+Q,13,random,B1
+Q only,F+Q,32,random,B1
+F+Q,F+Q,42,random,B1
+neither,F+Q,1,random,B1
+F only,neither,4,random,B1
+Q only,neither,0,random,B1
+F+Q,neither,0,random,B1
+neither,neither,4,random,B1
+F only,F only,201,random,B2
+Q only,F only,34,random,B2
+F+Q,F only,20,random,B2
+neither,F only,6,random,B2
+F only,Q only,9,random,B2
+Q only,Q only,244,random,B2
+F+Q,Q only,44,random,B2
+neither,Q only,3,random,B2
+F only,F+Q,13,random,B2
+Q only,F+Q,21,random,B2
+F+Q,F+Q,16,random,B2
+neither,F+Q,0,random,B2
+F only,neither,7,random,B2
+Q only,neither,3,random,B2
+F+Q,neither,0,random,B2
+neither,neither,4,random,B2
+F only,F only,199,random,B3
+Q only,F only,10,random,B3
+F+Q,F only,6,random,B3
+neither,F only,2,random,B3
+F only,Q only,12,random,B3
+Q only,Q only,262,random,B3
+F+Q,Q only,29,random,B3
+neither,Q only,3,random,B3
+F only,F+Q,19,random,B3
+Q only,F+Q,30,random,B3
+F+Q,F+Q,45,random,B3
+neither,F+Q,1,random,B3
+F only,neither,0,random,B3
+Q only,neither,0,random,B3
+F+Q,neither,0,random,B3
+neither,neither,7,random,B3
+F only,F only,80,lopo,B1
+Q only,F only,8,lopo,B1
+F+Q,F only,6,lopo,B1
+neither,F only,0,lopo,B1
+F only,Q only,74,lopo,B1
+Q only,Q only,269,lopo,B1
+F+Q,Q only,58,lopo,B1
+neither,Q only,11,lopo,B1
+F only,F+Q,74,lopo,B1
+Q only,F+Q,24,lopo,B1
+F+Q,F+Q,15,lopo,B1
+neither,F+Q,1,lopo,B1
+F only,neither,2,lopo,B1
+Q only,neither,1,lopo,B1
+F+Q,neither,1,lopo,B1
+neither,neither,1,lopo,B1
+F only,F only,143,lopo,B2
+Q only,F only,25,lopo,B2
+F+Q,F only,13,lopo,B2
+neither,F only,1,lopo,B2
+F only,Q only,45,lopo,B2
+Q only,Q only,248,lopo,B2
+F+Q,Q only,53,lopo,B2
+neither,Q only,8,lopo,B2
+F only,F+Q,30,lopo,B2
+Q only,F+Q,24,lopo,B2
+F+Q,F+Q,14,lopo,B2
+neither,F+Q,0,lopo,B2
+F only,neither,12,lopo,B2
+Q only,neither,5,lopo,B2
+F+Q,neither,0,lopo,B2
+neither,neither,4,lopo,B2
+F only,F only,137,lopo,B3
+Q only,F only,8,lopo,B3
+F+Q,F only,11,lopo,B3
+neither,F only,2,lopo,B3
+F only,Q only,28,lopo,B3
+Q only,Q only,256,lopo,B3
+F+Q,Q only,33,lopo,B3
+neither,Q only,10,lopo,B3
+F only,F+Q,62,lopo,B3
+Q only,F+Q,38,lopo,B3
+F+Q,F+Q,36,lopo,B3
+neither,F+Q,0,lopo,B3
+F only,neither,3,lopo,B3
+Q only,neither,0,lopo,B3
+F+Q,neither,0,lopo,B3
+neither,neither,1,lopo,B3
+F only,F only,65,lopo-eval13,B1
+Q only,F only,7,lopo-eval13,B1
+F+Q,F only,4,lopo-eval13,B1
+neither,F only,0,lopo-eval13,B1
+F only,Q only,68,lopo-eval13,B1
+Q only,Q only,228,lopo-eval13,B1
+F+Q,Q only,47,lopo-eval13,B1
+neither,Q only,10,lopo-eval13,B1
+F only,F+Q,64,lopo-eval13,B1
+Q only,F+Q,20,lopo-eval13,B1
+F+Q,F+Q,11,lopo-eval13,B1
+neither,F+Q,1,lopo-eval13,B1
+F only,neither,2,lopo-eval13,B1
+Q only,neither,1,lopo-eval13,B1
+F+Q,neither,1,lopo-eval13,B1
+neither,neither,1,lopo-eval13,B1
+F only,F only,118,lopo-eval13,B2
+Q only,F only,17,lopo-eval13,B2
+F+Q,F only,9,lopo-eval13,B2
+neither,F only,1,lopo-eval13,B2
+F only,Q only,43,lopo-eval13,B2
+Q only,Q only,216,lopo-eval13,B2
+F+Q,Q only,43,lopo-eval13,B2
+neither,Q only,7,lopo-eval13,B2
+F only,F+Q,27,lopo-eval13,B2
+Q only,F+Q,20,lopo-eval13,B2
+F+Q,F+Q,11,lopo-eval13,B2
+neither,F+Q,0,lopo-eval13,B2
+F only,neither,11,lopo-eval13,B2
+Q only,neither,3,lopo-eval13,B2
+F+Q,neither,0,lopo-eval13,B2
+neither,neither,4,lopo-eval13,B2
+F only,F only,112,lopo-eval13,B3
+Q only,F only,8,lopo-eval13,B3
+F+Q,F only,9,lopo-eval13,B3
+neither,F only,2,lopo-eval13,B3
+F only,Q only,26,lopo-eval13,B3
+Q only,Q only,222,lopo-eval13,B3
+F+Q,Q only,27,lopo-eval13,B3
+neither,Q only,9,lopo-eval13,B3
+F only,F+Q,58,lopo-eval13,B3
+Q only,F+Q,26,lopo-eval13,B3
+F+Q,F+Q,27,lopo-eval13,B3
+neither,F+Q,0,lopo-eval13,B3
+F only,neither,3,lopo-eval13,B3
+Q only,neither,0,lopo-eval13,B3
+F+Q,neither,0,lopo-eval13,B3
+neither,neither,1,lopo-eval13,B3
+F only,F only,21,zero-shot,Z
+Q only,F only,14,zero-shot,Z
+F+Q,F only,6,zero-shot,Z
+neither,F only,1,zero-shot,Z
+F only,Q only,111,zero-shot,Z
+Q only,Q only,204,zero-shot,Z
+F+Q,Q only,46,zero-shot,Z
+neither,Q only,10,zero-shot,Z
+F only,F+Q,83,zero-shot,Z
+Q only,F+Q,68,zero-shot,Z
+F+Q,F+Q,19,zero-shot,Z
+neither,F+Q,1,zero-shot,Z
+F only,neither,15,zero-shot,Z
+Q only,neither,16,zero-shot,Z
+F+Q,neither,9,zero-shot,Z
+neither,neither,1,zero-shot,Z
+F only,F only,91,Dalpiaz-4,B1
+Q only,F only,1,Dalpiaz-4,B1
+F+Q,F only,24,Dalpiaz-4,B1
+neither,F only,0,Dalpiaz-4,B1
+F only,Q only,51,Dalpiaz-4,B1
+Q only,Q only,56,Dalpiaz-4,B1
+F+Q,Q only,32,Dalpiaz-4,B1
+neither,Q only,3,Dalpiaz-4,B1
+F only,F+Q,43,Dalpiaz-4,B1
+Q only,F+Q,2,Dalpiaz-4,B1
+F+Q,F+Q,24,Dalpiaz-4,B1
+neither,F+Q,1,Dalpiaz-4,B1
+F only,neither,2,Dalpiaz-4,B1
+Q only,neither,0,Dalpiaz-4,B1
+F+Q,neither,1,Dalpiaz-4,B1
+neither,neither,0,Dalpiaz-4,B1
+F only,F only,111,Dalpiaz-4,B2
+Q only,F only,1,Dalpiaz-4,B2
+F+Q,F only,20,Dalpiaz-4,B2
+neither,F only,3,Dalpiaz-4,B2
+F only,Q only,50,Dalpiaz-4,B2
+Q only,Q only,56,Dalpiaz-4,B2
+F+Q,Q only,51,Dalpiaz-4,B2
+neither,Q only,0,Dalpiaz-4,B2
+F only,F+Q,12,Dalpiaz-4,B2
+Q only,F+Q,1,Dalpiaz-4,B2
+F+Q,F+Q,7,Dalpiaz-4,B2
+neither,F+Q,0,Dalpiaz-4,B2
+F only,neither,14,Dalpiaz-4,B2
+Q only,neither,1,Dalpiaz-4,B2
+F+Q,neither,3,Dalpiaz-4,B2
+neither,neither,1,Dalpiaz-4,B2
+F only,F only,119,Dalpiaz-4,B3
+Q only,F only,0,Dalpiaz-4,B3
+F+Q,F only,33,Dalpiaz-4,B3
+neither,F only,1,Dalpiaz-4,B3
+F only,Q only,21,Dalpiaz-4,B3
+Q only,Q only,54,Dalpiaz-4,B3
+F+Q,Q only,22,Dalpiaz-4,B3
+neither,Q only,0,Dalpiaz-4,B3
+F only,F+Q,46,Dalpiaz-4,B3
+Q only,F+Q,5,Dalpiaz-4,B3
+F+Q,F+Q,25,Dalpiaz-4,B3
+neither,F+Q,2,Dalpiaz-4,B3
+F only,neither,1,Dalpiaz-4,B3
+Q only,neither,0,Dalpiaz-4,B3
+F+Q,neither,1,Dalpiaz-4,B3
+neither,neither,1,Dalpiaz-4,B3
+F only,F only,20,Dalpiaz-4,Z
+Q only,F only,1,Dalpiaz-4,Z
+F+Q,F only,3,Dalpiaz-4,Z
+neither,F only,0,Dalpiaz-4,Z
+F only,Q only,83,Dalpiaz-4,Z
+Q only,Q only,46,Dalpiaz-4,Z
+F+Q,Q only,50,Dalpiaz-4,Z
+neither,Q only,2,Dalpiaz-4,Z
+F only,F+Q,53,Dalpiaz-4,Z
+Q only,F+Q,8,Dalpiaz-4,Z
+F+Q,F+Q,17,Dalpiaz-4,Z
+neither,F+Q,1,Dalpiaz-4,Z
+F only,neither,31,Dalpiaz-4,Z
+Q only,neither,4,Dalpiaz-4,Z
+F+Q,neither,11,Dalpiaz-4,Z
+neither,neither,1,Dalpiaz-4,Z
+F only,F only,129,iTrust,B1
+Q only,F only,0,iTrust,B1
+F+Q,F only,0,iTrust,B1
+neither,F only,6,iTrust,B1
+F only,Q only,80,iTrust,B1
+Q only,Q only,0,iTrust,B1
+F+Q,Q only,0,iTrust,B1
+neither,Q only,14,iTrust,B1
+F only,F+Q,88,iTrust,B1
+Q only,F+Q,0,iTrust,B1
+F+Q,F+Q,1,iTrust,B1
+neither,F+Q,5,iTrust,B1
+F only,neither,13,iTrust,B1
+Q only,neither,0,iTrust,B1
+F+Q,neither,0,iTrust,B1
+neither,neither,0,iTrust,B1
+F only,F only,263,iTrust,B2
+Q only,F only,0,iTrust,B2
+F+Q,F only,0,iTrust,B2
+neither,F only,15,iTrust,B2
+F only,Q only,17,iTrust,B2
+Q only,Q only,0,iTrust,B2
+F+Q,Q only,0,iTrust,B2
+neither,Q only,8,iTrust,B2
+F only,F+Q,19,iTrust,B2
+Q only,F+Q,0,iTrust,B2
+F+Q,F+Q,1,iTrust,B2
+neither,F+Q,0,iTrust,B2
+F only,neither,11,iTrust,B2
+Q only,neither,0,iTrust,B2
+F+Q,neither,0,iTrust,B2
+neither,neither,2,iTrust,B2
+F only,F only,241,iTrust,B3
+Q only,F only,0,iTrust,B3
+F+Q,F only,1,iTrust,B3
+neither,F only,12,iTrust,B3
+F only,Q only,23,iTrust,B3
+Q only,Q only,0,iTrust,B3
+F+Q,Q only,0,iTrust,B3
+neither,Q only,5,iTrust,B3
+F only,F+Q,37,iTrust,B3
+Q only,F+Q,0,iTrust,B3
+F+Q,F+Q,0,iTrust,B3
+neither,F+Q,4,iTrust,B3
+F only,neither,9,iTrust,B3
+Q only,neither,0,iTrust,B3
+F+Q,neither,0,iTrust,B3
+neither,neither,4,iTrust,B3
+F only,F only,57,iTrust,Z
+Q only,F only,0,iTrust,Z
+F+Q,F only,0,iTrust,Z
+neither,F only,3,iTrust,Z
+F only,Q only,114,iTrust,Z
+Q only,Q only,0,iTrust,Z
+F+Q,Q only,0,iTrust,Z
+neither,Q only,4,iTrust,Z
+F only,F+Q,87,iTrust,Z
+Q only,F+Q,0,iTrust,Z
+F+Q,F+Q,1,iTrust,Z
+neither,F+Q,6,iTrust,Z
+F only,neither,52,iTrust,Z
+Q only,neither,0,iTrust,Z
+F+Q,neither,0,iTrust,Z
+neither,neither,12,iTrust,Z

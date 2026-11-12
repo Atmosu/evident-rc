@@ -1,0 +1,177 @@
+{
+ "EVIDENT-RC": {
+  "n": 530,
+  "exact": 0.551,
+  "exact_ci": [
+   0.49,
+   0.6
+  ],
+  "FQF1": 0.335,
+  "FQF1_ci": [
+   0.21,
+   0.44
+  ],
+  "FQP": 0.208,
+  "FQR": 0.873,
+  "FPR": 0.45,
+  "FQpred": 265,
+  "macroF1": 0.816,
+  "abst": 4,
+  "confusion": {
+   "F only": {
+    "F only": 129,
+    "Q only": 0,
+    "F+Q": 69,
+    "neither": 1
+   },
+   "Q only": {
+    "F only": 9,
+    "Q only": 108,
+    "F+Q": 136,
+    "neither": 3
+   },
+   "F+Q": {
+    "F only": 5,
+    "Q only": 3,
+    "F+Q": 55,
+    "neither": 0
+   },
+   "neither": {
+    "F only": 6,
+    "Q only": 1,
+    "F+Q": 5,
+    "neither": 0
+   }
+  }
+ },
+ "no retrieval": {
+  "n": 530,
+  "exact": 0.602,
+  "exact_ci": [
+   0.54,
+   0.65
+  ],
+  "FQF1": 0.348,
+  "FQF1_ci": [
+   0.21,
+   0.47
+  ],
+  "FQP": 0.227,
+  "FQR": 0.746,
+  "FPR": 0.343,
+  "FQpred": 207,
+  "macroF1": 0.82,
+  "abst": 4
+ },
+ "no evidence": {
+  "n": 530,
+  "exact": 0.608,
+  "exact_ci": [
+   0.55,
+   0.65
+  ],
+  "FQF1": 0.363,
+  "FQF1_ci": [
+   0.24,
+   0.46
+  ],
+  "FQP": 0.231,
+  "FQR": 0.841,
+  "FPR": 0.377,
+  "FQpred": 229,
+  "macroF1": 0.832,
+  "abst": 0
+ },
+ "no forced F+Q": {
+  "n": 530,
+  "exact": 0.553,
+  "exact_ci": [
+   0.5,
+   0.6
+  ],
+  "FQF1": 0.322,
+  "FQF1_ci": [
+   0.21,
+   0.42
+  ],
+  "FQP": 0.201,
+  "FQR": 0.81,
+  "FPR": 0.435,
+  "FQpred": 254,
+  "macroF1": 0.814,
+  "abst": 3
+ },
+ "stated conf (1 sample)": {
+  "n": 530,
+  "exact": 0.468,
+  "exact_ci": [
+   0.41,
+   0.51
+  ],
+  "FQF1": 0.3,
+  "FQF1_ci": [
+   0.21,
+   0.38
+  ],
+  "FQP": 0.186,
+  "FQR": 0.778,
+  "FPR": 0.46,
+  "FQpred": 264,
+  "macroF1": 0.776,
+  "abst": 41
+ },
+ "B1": {
+  "n": 530,
+  "exact": 0.575,
+  "exact_ci": [
+   0.51,
+   0.65
+  ],
+  "FQF1": 0.138,
+  "FQF1_ci": [
+   0.06,
+   0.24
+  ],
+  "FQP": 0.115,
+  "FQR": 0.175,
+  "FPR": 0.182,
+  "FQpred": 96,
+  "macroF1": 0.73
+ },
+ "B2": {
+  "n": 530,
+  "exact": 0.658,
+  "exact_ci": [
+   0.59,
+   0.72
+  ],
+  "FQF1": 0.182,
+  "FQF1_ci": [
+   0.09,
+   0.32
+  ],
+  "FQP": 0.19,
+  "FQR": 0.175,
+  "FPR": 0.101,
+  "FQpred": 58,
+  "macroF1": 0.778
+ },
+ "B3": {
+  "n": 530,
+  "exact": 0.683,
+  "exact_ci": [
+   0.62,
+   0.74
+  ],
+  "FQF1": 0.31,
+  "FQF1_ci": [
+   0.15,
+   0.45
+  ],
+  "FQP": 0.243,
+  "FQR": 0.429,
+  "FPR": 0.18,
+  "FQpred": 111,
+  "macroF1": 0.832
+ }
+}

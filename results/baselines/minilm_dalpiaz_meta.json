@@ -1,0 +1,27 @@
+{
+ "model": "minilm",
+ "hf": "sentence-transformers/all-MiniLM-L6-v2",
+ "pool": "mean",
+ "lr": 5e-05,
+ "epochs": 8,
+ "batch": 16,
+ "max_len": 128,
+ "seed": 42,
+ "device": "cuda",
+ "torch": "2.15.0+cu132",
+ "folds": [
+  {
+   "test": "dalpiaz",
+   "val_project": "P02",
+   "n_train": 585,
+   "n_test": 331,
+   "T": {
+    "F": 1.0295077562332153,
+    "Q": 0.9578266143798828,
+    "attr": 1.2272142171859741
+   },
+   "exact": 0.5740181268882175,
+   "secs": 6.3
+  }
+ ]
+}

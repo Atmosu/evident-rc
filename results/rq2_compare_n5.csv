@@ -1,0 +1,9 @@
+family,signal,accuracy,AUROC,ECE,AURC,Brier,agree_but_wrong,AUROC_diff_CI,AUROC_p,ECE_diff_CI,ECE_p,AURC_diff_CI,AURC_p,AUROC_p_holm,ECE_p_holm,AURC_p_holm
+identical predictions,EVIDENT-RC c_verified,0.504,0.632,0.265,0.406,0.313,0.362,,,,,,,,,
+identical predictions,plain agreement (support_all),0.504,0.612,0.294,0.419,0.338,0.383,-0.003 to 0.043,0.084,-0.044 to -0.017,0.0,-0.029 to 0.002,0.097,0.252,0.0,0.291
+identical predictions,1 - vote entropy (verified),0.504,0.628,0.24,0.408,0.302,0.362,-0.002 to 0.009,0.149,-0.013 to 0.058,0.194,-0.003 to 0.001,0.163,0.264,0.388,0.326
+identical predictions,1 - vote entropy (plain),0.504,0.602,0.269,0.426,0.326,0.393,0.005 to 0.057,0.02,-0.036 to 0.017,0.585,-0.039 to -0.003,0.017,0.08,0.585,0.068
+identical predictions,"S3 mean(c_verified, stated)",0.504,0.636,0.371,0.404,0.373,0.358,-0.010 to 0.001,0.132,-0.120 to -0.091,0.0,-0.003 to 0.009,0.346,0.264,0.0,0.346
+end to end,"EVIDENT-RC (verified vote, c)",0.504,0.632,0.265,0.406,0.313,0.362,,,,,,,,,
+end to end,S1 plain self-consistency,0.494,0.631,0.314,0.418,0.34,0.38,-0.031 to 0.030,0.945,-0.065 to -0.034,0.0,-0.029 to 0.005,0.184,0.945,0.0,0.184
+end to end,S2 verbalized (1 sample),0.445,0.529,0.549,0.54,0.546,0.539,0.055 to 0.150,0.0,-0.324 to -0.246,0.0,-0.173 to -0.096,0.0,0.0,0.0,0.0

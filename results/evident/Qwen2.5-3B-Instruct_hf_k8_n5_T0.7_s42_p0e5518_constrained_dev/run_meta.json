@@ -1,0 +1,96 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "backend": "hf",
+ "decoding": "constrained",
+ "prompt": "v3",
+ "prompt_hash": "0e551808ce54",
+ "split": "dev",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": true,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 21.2,
+ "python": "3.13.18",
+ "torch": "2.15.0",
+ "device": "mps",
+ "gpu": null,
+ "folds": {
+  "P02": {
+   "val_project": "P03",
+   "n_train": 505,
+   "n_test": 40,
+   "gen_s": 497.8,
+   "items": 40,
+   "items_with_prediction": 37,
+   "sample_verified_rate": 0.845,
+   "L1_exact_acc": 0.676,
+   "FQ_items": 8,
+   "FQ_both_correct": 4,
+   "mean_confidence": 0.785,
+   "needs_review": 7,
+   "sample_reasons": {
+    "ok": 169,
+    "Q_span_too_long": 11,
+    "F_span_too_long": 8,
+    "Q_span_not_substring": 8,
+    "F_span_full": 4
+   },
+   "verified_vs_plain_same_prediction": 36
+  },
+  "P04": {
+   "val_project": "P05",
+   "n_train": 497,
+   "n_test": 55,
+   "gen_s": 714.3,
+   "items": 55,
+   "items_with_prediction": 52,
+   "sample_verified_rate": 0.869,
+   "L1_exact_acc": 0.423,
+   "FQ_items": 9,
+   "FQ_both_correct": 1,
+   "mean_confidence": 0.789,
+   "needs_review": 6,
+   "sample_reasons": {
+    "ok": 239,
+    "Q_span_too_long": 2,
+    "Q_span_not_substring": 8,
+    "Q_span_no_content": 5,
+    "F_span_not_substring": 7,
+    "F_span_too_long": 13,
+    "F_span_full": 1
+   },
+   "verified_vs_plain_same_prediction": 52
+  }
+ },
+ "overall": {
+  "items": 95,
+  "items_with_prediction": 89,
+  "sample_verified_rate": 0.859,
+  "L1_exact_acc": 0.528,
+  "FQ_items": 17,
+  "FQ_both_correct": 5,
+  "mean_confidence": 0.787,
+  "needs_review": 13,
+  "sample_reasons": {
+   "ok": 408,
+   "Q_span_too_long": 13,
+   "F_span_too_long": 21,
+   "Q_span_not_substring": 16,
+   "F_span_full": 5,
+   "Q_span_no_content": 5,
+   "F_span_not_substring": 7
+  },
+  "verified_vs_plain_same_prediction": 88
+ }
+}

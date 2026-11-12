@@ -1,0 +1,99 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "backend": "hf",
+ "decoding": "constrained",
+ "prompt": "v2",
+ "prompt_hash": "8b9e5053326f",
+ "split": "dev",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": true,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 21.9,
+ "python": "3.13.18",
+ "torch": "2.15.0",
+ "device": "mps",
+ "gpu": null,
+ "folds": {
+  "P02": {
+   "val_project": "P03",
+   "n_train": 505,
+   "n_test": 40,
+   "gen_s": 485.5,
+   "items": 40,
+   "items_with_prediction": 36,
+   "sample_verified_rate": 0.785,
+   "L1_exact_acc": 0.722,
+   "FQ_items": 8,
+   "FQ_both_correct": 4,
+   "mean_confidence": 0.76,
+   "needs_review": 8,
+   "sample_reasons": {
+    "ok": 157,
+    "Q_span_not_substring": 7,
+    "Q_span_missing": 17,
+    "F_span_too_long": 11,
+    "Q_span_no_content": 1,
+    "F_span_not_substring": 2,
+    "F_span_full": 4,
+    "Q_span_too_long": 1
+   },
+   "verified_vs_plain_same_prediction": 33
+  },
+  "P04": {
+   "val_project": "P05",
+   "n_train": 497,
+   "n_test": 55,
+   "gen_s": 632.1,
+   "items": 55,
+   "items_with_prediction": 54,
+   "sample_verified_rate": 0.873,
+   "L1_exact_acc": 0.37,
+   "FQ_items": 9,
+   "FQ_both_correct": 2,
+   "mean_confidence": 0.785,
+   "needs_review": 10,
+   "sample_reasons": {
+    "ok": 240,
+    "Q_span_not_substring": 6,
+    "Q_span_missing": 1,
+    "F_span_not_substring": 15,
+    "F_span_too_long": 11,
+    "Q_span_no_content": 2
+   },
+   "verified_vs_plain_same_prediction": 53
+  }
+ },
+ "overall": {
+  "items": 95,
+  "items_with_prediction": 90,
+  "sample_verified_rate": 0.836,
+  "L1_exact_acc": 0.511,
+  "FQ_items": 17,
+  "FQ_both_correct": 6,
+  "mean_confidence": 0.775,
+  "needs_review": 18,
+  "sample_reasons": {
+   "ok": 397,
+   "Q_span_not_substring": 13,
+   "Q_span_missing": 18,
+   "F_span_too_long": 22,
+   "Q_span_no_content": 3,
+   "F_span_not_substring": 17,
+   "F_span_full": 4,
+   "Q_span_too_long": 1
+  },
+  "verified_vs_plain_same_prediction": 86
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "model": "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+ "backend": "hf",
+ "quant": "4bit",
+ "variant": "evident",
+ "decoding": "constrained",
+ "prompt": "v4",
+ "prompt_hash": "443b9c01876d",
+ "split": "dev",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": true,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 3.6,
+ "python": "3.12.3",
+ "torch": "2.15.0+cu132",
+ "device": "cuda",
+ "gpu": "GRID A100X-10C",
+ "folds": {
+  "P02": {
+   "val_project": "P03",
+   "n_train": 505,
+   "n_test": 40,
+   "gen_s": 116.6,
+   "items": 40,
+   "items_with_prediction": 39,
+   "sample_verified_rate": 0.88,
+   "L1_exact_acc": 0.821,
+   "FQ_items": 8,
+   "FQ_both_correct": 8,
+   "mean_confidence": 0.79,
+   "needs_review": 5,
+   "sample_reasons": {
+    "ok": 176,
+    "Q_span_not_substring": 8,
+    "Q_span_too_long": 5,
+    "attribute_missing": 5,
+    "F_span_missing": 1,
+    "F_span_not_substring": 5
+   },
+   "verified_vs_plain_same_prediction": 38
+  },
+  "P04": {
+   "val_project": "P05",
+   "n_train": 497,
+   "n_test": 55,
+   "gen_s": 173.0,
+   "items": 55,
+   "items_with_prediction": 54,
+   "sample_verified_rate": 0.92,
+   "L1_exact_acc": 0.37,
+   "FQ_items": 9,
+   "FQ_both_correct": 7,
+   "mean_confidence": 0.76,
+   "needs_review": 8,
+   "sample_reasons": {
+    "ok": 253,
+    "Q_span_not_substring": 6,
+    "F_span_not_substring": 10,
+    "attribute_missing": 3,
+    "F_span_too_long": 2,
+    "Q_span_too_long": 1
+   },
+   "verified_vs_plain_same_prediction": 53
+  }
+ },
+ "overall": {
+  "items": 95,
+  "items_with_prediction": 93,
+  "sample_verified_rate": 0.903,
+  "L1_exact_acc": 0.559,
+  "FQ_items": 17,
+  "FQ_both_correct": 15,
+  "mean_confidence": 0.773,
+  "needs_review": 13,
+  "sample_reasons": {
+   "ok": 429,
+   "Q_span_not_substring": 14,
+   "Q_span_too_long": 6,
+   "attribute_missing": 8,
+   "F_span_missing": 1,
+   "F_span_not_substring": 15,
+   "F_span_too_long": 2
+  },
+  "verified_vs_plain_same_prediction": 91
+ }
+}

@@ -1,0 +1,2 @@
+req_a,req_b,cosine,text_ratio,labels_a,labels_b,same_labels,involves_FQ,text_a,text_b
+P03-098,P08-435,0.847,0.894,"F=1,Q=1","F=0,Q=1",False,True,The system shall protect private information in accordance with the organization’s information policy.,The system shall reveal private information only in compliance with the organization’s information policy.

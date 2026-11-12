@@ -1,0 +1,27 @@
+{
+ "model": "roberta",
+ "hf": "roberta-large",
+ "pool": "cls",
+ "lr": 1e-05,
+ "epochs": 10,
+ "batch": 16,
+ "max_len": 128,
+ "seed": 42,
+ "device": "cuda",
+ "torch": "2.15.0+cu132",
+ "folds": [
+  {
+   "test": "dalpiaz",
+   "val_project": "P02",
+   "n_train": 585,
+   "n_test": 331,
+   "T": {
+    "F": 1.8688809871673584,
+    "Q": 1.040436029434204,
+    "attr": 1.2666784524917603
+   },
+   "exact": 0.6948640483383686,
+   "secs": 32.4
+  }
+ ]
+}

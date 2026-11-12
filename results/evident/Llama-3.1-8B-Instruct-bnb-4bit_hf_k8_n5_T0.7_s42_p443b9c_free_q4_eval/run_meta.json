@@ -1,0 +1,76 @@
+{
+ "model": "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+ "backend": "hf",
+ "quant": "4bit",
+ "variant": "evident",
+ "decoding": "free",
+ "prompt": "v4",
+ "prompt_hash": "443b9c01876d",
+ "split": "eval",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": true,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 5,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 2.9,
+ "python": "3.12.3",
+ "torch": "2.15.0+cu132",
+ "device": "cuda",
+ "gpu": "GRID A100X-10C",
+ "folds": {
+  "P01": {
+   "val_project": "P02",
+   "n_train": 557,
+   "n_test": 28,
+   "gen_s": 112.0,
+   "items": 28,
+   "items_with_prediction": 28,
+   "sample_verified_rate": 0.886,
+   "L1_exact_acc": 0.571,
+   "FQ_items": 7,
+   "FQ_both_correct": 5,
+   "mean_confidence": 0.779,
+   "needs_review": 4,
+   "sample_reasons": {
+    "ok": 124,
+    "Q_span_not_substring": 3,
+    "Q_span_no_content": 1,
+    "schema": 7,
+    "Q_span_missing": 1,
+    "F_span_missing": 1,
+    "Q_span_too_long": 3
+   },
+   "verified_vs_plain_same_prediction": 28
+  }
+ },
+ "overall": {
+  "items": 28,
+  "items_with_prediction": 28,
+  "sample_verified_rate": 0.886,
+  "L1_exact_acc": 0.571,
+  "FQ_items": 7,
+  "FQ_both_correct": 5,
+  "mean_confidence": 0.779,
+  "needs_review": 4,
+  "sample_reasons": {
+   "ok": 124,
+   "Q_span_not_substring": 3,
+   "Q_span_no_content": 1,
+   "schema": 7,
+   "Q_span_missing": 1,
+   "F_span_missing": 1,
+   "Q_span_too_long": 3
+  },
+  "verified_vs_plain_same_prediction": 28
+ }
+}

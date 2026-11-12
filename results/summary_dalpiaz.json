@@ -1,0 +1,42 @@
+{
+ "metrics": {
+  "EVIDENT-RC": {
+   "FQ_F1": 0.444,
+   "exact_match": 0.613,
+   "FQ_FPR": 0.376,
+   "FQP": 0.347,
+   "FQR": 0.617,
+   "FQpred": 144,
+   "macroF1": 0.816,
+   "abst": 3,
+   "n": 331
+  },
+  "B1": {
+   "FQ_F1": 0.318,
+   "exact_match": 0.517,
+   "FQ_FPR": 0.184,
+   "FQP": 0.343,
+   "FQR": 0.296,
+   "FQpred": 70,
+   "macroF1": 0.725
+  },
+  "B2": {
+   "FQ_F1": 0.139,
+   "exact_match": 0.529,
+   "FQ_FPR": 0.052,
+   "FQP": 0.35,
+   "FQR": 0.086,
+   "FQpred": 20,
+   "macroF1": 0.717
+  },
+  "B3": {
+   "FQ_F1": 0.314,
+   "exact_match": 0.601,
+   "FQ_FPR": 0.212,
+   "FQP": 0.321,
+   "FQR": 0.309,
+   "FQpred": 78,
+   "macroF1": 0.783
+  }
+ }
+}

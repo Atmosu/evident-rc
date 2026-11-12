@@ -1,0 +1,204 @@
+{
+ "run": "Qwen2.5-3B-Instruct_hf_k8_n5_T0.7_s42_p417c1f_constrained_probe_dev",
+ "folds": [
+  "P02",
+  "P04"
+ ],
+ "items": 95,
+ "n": 5,
+ "v1_pass_rate_with_span_rules": 0.434,
+ "v1_pass_rate_basic_rules": 0.535,
+ "fail_reasons": {
+  "F_span_full": 103,
+  "F_span_too_long": 43,
+  "Q_span_not_substring": 39,
+  "Q_span_missing": 30,
+  "Q_span_full": 19,
+  "F_span_not_substring": 17,
+  "Q_span_too_long": 10,
+  "F_span_missing": 7,
+  "Q_span_no_content": 1
+ },
+ "mean_span_agreement": {
+  "F": 0.815,
+  "Q": 0.683
+ },
+ "by_n": [
+  {
+   "n_samples": 5,
+   "items": 95,
+   "items_without_verified_sample": 27,
+   "same_prediction_verified_vs_plain": 0.695,
+   "verified_vote": {
+    "F_P": 0.732,
+    "F_R": 0.625,
+    "F_F1": 0.674,
+    "Q_P": 0.733,
+    "Q_R": 0.524,
+    "Q_F1": 0.611,
+    "macroF1": 0.643,
+    "hamming": 0.374,
+    "exact_match": 0.389,
+    "FQ_P": 0.211,
+    "FQ_R": 0.235,
+    "FQ_F1": 0.222,
+    "FQ_FPR": 0.192,
+    "FQ_predicted": 19,
+    "FQ_gold": 17,
+    "n": 95,
+    "coverage": 0.716,
+    "tuple_exact": 0.316,
+    "auroc_L1_errors": 0.711,
+    "auroc_tuple_errors": 0.674,
+    "distinct_confidence_values": 6
+   },
+   "plain_vote": {
+    "F_P": 0.694,
+    "F_R": 0.896,
+    "F_F1": 0.782,
+    "Q_P": 0.786,
+    "Q_R": 0.698,
+    "Q_F1": 0.739,
+    "macroF1": 0.761,
+    "hamming": 0.289,
+    "exact_match": 0.558,
+    "FQ_P": 0.292,
+    "FQ_R": 0.412,
+    "FQ_F1": 0.341,
+    "FQ_FPR": 0.218,
+    "FQ_predicted": 24,
+    "FQ_gold": 17,
+    "n": 95,
+    "coverage": 1.0,
+    "tuple_exact": 0.484,
+    "auroc_L1_errors": 0.551,
+    "auroc_tuple_errors": 0.582,
+    "distinct_confidence_values": 3
+   },
+   "confidence_quality_on_verified_predictions": {
+    "c_verified": {
+     "AUROC": 0.674,
+     "ECE": 0.223,
+     "Brier": 0.265,
+     "AURC": 0.604,
+     "risk@85": 0.63,
+     "agree_but_wrong": 0.583,
+     "accuracy": 0.316,
+     "n": 95
+    },
+    "support_all": {
+     "AUROC": 0.778,
+     "ECE": 0.324,
+     "Brier": 0.317,
+     "AURC": 0.528,
+     "risk@85": 0.63,
+     "agree_but_wrong": 0.468,
+     "accuracy": 0.316,
+     "n": 95
+    },
+    "1-H_plain": {
+     "AUROC": 0.593,
+     "ECE": 0.562,
+     "Brier": 0.537,
+     "AURC": 0.634,
+     "risk@85": 0.672,
+     "agree_but_wrong": 0.621,
+     "accuracy": 0.316,
+     "n": 95
+    },
+    "1-H_verified": {
+     "AUROC": 0.608,
+     "ECE": 0.266,
+     "Brier": 0.295,
+     "AURC": 0.624,
+     "risk@85": 0.664,
+     "agree_but_wrong": 0.583,
+     "accuracy": 0.316,
+     "n": 95
+    }
+   },
+   "end_to_end": {
+    "verified_vote_system": {
+     "AUROC": 0.674,
+     "ECE": 0.223,
+     "Brier": 0.265,
+     "AURC": 0.604,
+     "risk@85": 0.63,
+     "agree_but_wrong": 0.583,
+     "accuracy": 0.316,
+     "n": 95
+    },
+    "plain_vote_system": {
+     "AUROC": 0.582,
+     "ECE": 0.421,
+     "Brier": 0.426,
+     "AURC": 0.466,
+     "risk@85": 0.497,
+     "agree_but_wrong": 0.455,
+     "accuracy": 0.484,
+     "n": 95
+    }
+   },
+   "confusion_verified_vote": {
+    "rows_gold_cols_pred": {
+     "F only": {
+      "F only": 11,
+      "Q only": 2,
+      "F+Q": 10,
+      "neither": 0
+     },
+     "Q only": {
+      "F only": 6,
+      "Q only": 22,
+      "F+Q": 5,
+      "neither": 1
+     },
+     "F+Q": {
+      "F only": 5,
+      "Q only": 2,
+      "F+Q": 4,
+      "neither": 0
+     },
+     "neither": {
+      "F only": 0,
+      "Q only": 0,
+      "F+Q": 0,
+      "neither": 0
+     }
+    },
+    "abstained_by_gold": {
+     "F only": "8",
+     "F+Q": "6",
+     "Q only": "12",
+     "neither": "1"
+    }
+   }
+  }
+ ],
+ "probe": {
+  "F_omissions_by_main": 18,
+  "F_recovered_by_probe": 8,
+  "F_false_additions": 1,
+  "Q_omissions_by_main": 30,
+  "Q_recovered_by_probe": 1,
+  "Q_false_additions": 0,
+  "main": {
+   "FQ_P": 0.211,
+   "FQ_R": 0.235,
+   "FQ_F1": 0.222,
+   "FQ_FPR": 0.192,
+   "exact_match": 0.4,
+   "macroF1": 0.643,
+   "FQ_predicted": 19
+  },
+  "main_plus_probe": {
+   "FQ_P": 0.211,
+   "FQ_R": 0.235,
+   "FQ_F1": 0.222,
+   "FQ_FPR": 0.192,
+   "exact_match": 0.484,
+   "macroF1": 0.7,
+   "FQ_predicted": 19
+  }
+ }
+}

@@ -1,0 +1,312 @@
+{
+ "model": "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+ "backend": "hf",
+ "quant": "4bit",
+ "variant": "verbal",
+ "decoding": "constrained",
+ "prompt": "v4",
+ "prompt_hash": "6b8f5732a6b4",
+ "split": "eval",
+ "span_rules": {
+  "min_content_words": 1,
+  "max_span_frac": 0.6,
+  "min_span_cap": 4
+ },
+ "fq_guarantee": true,
+ "probe": false,
+ "probe_hash": null,
+ "k": 8,
+ "n": 1,
+ "temperature": 0.7,
+ "tau": 0.6,
+ "seed": 42,
+ "max_tokens": 200,
+ "limit": 0,
+ "load_s": 3.9,
+ "python": "3.12.3",
+ "torch": "2.15.0+cu132",
+ "device": "cuda",
+ "gpu": "GRID A100X-10C",
+ "folds": {
+  "P01": {
+   "val_project": "P02",
+   "n_train": 557,
+   "n_test": 28,
+   "gen_s": 80.3,
+   "items": 28,
+   "items_with_prediction": 26,
+   "sample_verified_rate": 0.929,
+   "L1_exact_acc": 0.577,
+   "FQ_items": 7,
+   "FQ_both_correct": 6,
+   "mean_confidence": 0.929,
+   "needs_review": 2,
+   "sample_reasons": {
+    "ok": 26,
+    "Q_span_not_substring": 1,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 26
+  },
+  "P03": {
+   "val_project": "P04",
+   "n_train": 490,
+   "n_test": 80,
+   "gen_s": 220.3,
+   "items": 80,
+   "items_with_prediction": 73,
+   "sample_verified_rate": 0.912,
+   "L1_exact_acc": 0.521,
+   "FQ_items": 4,
+   "FQ_both_correct": 3,
+   "mean_confidence": 0.912,
+   "needs_review": 7,
+   "sample_reasons": {
+    "ok": 73,
+    "Q_span_not_substring": 3,
+    "F_span_not_substring": 3,
+    "F_span_too_long": 1
+   },
+   "verified_vs_plain_same_prediction": 73
+  },
+  "P05": {
+   "val_project": "P06",
+   "n_train": 478,
+   "n_test": 73,
+   "gen_s": 196.8,
+   "items": 73,
+   "items_with_prediction": 70,
+   "sample_verified_rate": 0.959,
+   "L1_exact_acc": 0.571,
+   "FQ_items": 5,
+   "FQ_both_correct": 5,
+   "mean_confidence": 0.959,
+   "needs_review": 3,
+   "sample_reasons": {
+    "ok": 70,
+    "Q_span_not_substring": 2,
+    "Q_span_no_content": 1
+   },
+   "verified_vs_plain_same_prediction": 70
+  },
+  "P06": {
+   "val_project": "P07",
+   "n_train": 528,
+   "n_test": 74,
+   "gen_s": 203.7,
+   "items": 74,
+   "items_with_prediction": 67,
+   "sample_verified_rate": 0.905,
+   "L1_exact_acc": 0.448,
+   "FQ_items": 6,
+   "FQ_both_correct": 5,
+   "mean_confidence": 0.905,
+   "needs_review": 7,
+   "sample_reasons": {
+    "Q_span_not_substring": 6,
+    "ok": 67,
+    "Q_span_too_long": 1
+   },
+   "verified_vs_plain_same_prediction": 67
+  },
+  "P07": {
+   "val_project": "P08",
+   "n_train": 509,
+   "n_test": 23,
+   "gen_s": 62.2,
+   "items": 23,
+   "items_with_prediction": 23,
+   "sample_verified_rate": 1.0,
+   "L1_exact_acc": 0.435,
+   "FQ_items": 2,
+   "FQ_both_correct": 2,
+   "mean_confidence": 1.0,
+   "needs_review": 0,
+   "sample_reasons": {
+    "ok": 23
+   },
+   "verified_vs_plain_same_prediction": 23
+  },
+  "P08": {
+   "val_project": "P09",
+   "n_train": 508,
+   "n_test": 93,
+   "gen_s": 251.6,
+   "items": 93,
+   "items_with_prediction": 87,
+   "sample_verified_rate": 0.935,
+   "L1_exact_acc": 0.563,
+   "FQ_items": 19,
+   "FQ_both_correct": 14,
+   "mean_confidence": 0.935,
+   "needs_review": 6,
+   "sample_reasons": {
+    "ok": 87,
+    "attribute_missing": 1,
+    "F_span_not_substring": 2,
+    "Q_span_too_long": 1,
+    "Q_span_not_substring": 2
+   },
+   "verified_vs_plain_same_prediction": 87
+  },
+  "P09": {
+   "val_project": "P10",
+   "n_train": 548,
+   "n_test": 24,
+   "gen_s": 64.3,
+   "items": 24,
+   "items_with_prediction": 21,
+   "sample_verified_rate": 0.875,
+   "L1_exact_acc": 0.476,
+   "FQ_items": 0,
+   "FQ_both_correct": 0,
+   "mean_confidence": 0.875,
+   "needs_review": 3,
+   "sample_reasons": {
+    "ok": 21,
+    "Q_span_not_substring": 1,
+    "F_span_not_substring": 1,
+    "F_span_too_long": 1
+   },
+   "verified_vs_plain_same_prediction": 21
+  },
+  "P10": {
+   "val_project": "P11",
+   "n_train": 559,
+   "n_test": 53,
+   "gen_s": 142.9,
+   "items": 53,
+   "items_with_prediction": 49,
+   "sample_verified_rate": 0.925,
+   "L1_exact_acc": 0.571,
+   "FQ_items": 5,
+   "FQ_both_correct": 3,
+   "mean_confidence": 0.925,
+   "needs_review": 4,
+   "sample_reasons": {
+    "ok": 49,
+    "Q_span_too_long": 1,
+    "Q_span_not_substring": 1,
+    "F_span_too_long": 1,
+    "attribute_missing": 1
+   },
+   "verified_vs_plain_same_prediction": 49
+  },
+  "P11": {
+   "val_project": "P12",
+   "n_train": 590,
+   "n_test": 13,
+   "gen_s": 35.9,
+   "items": 13,
+   "items_with_prediction": 11,
+   "sample_verified_rate": 0.846,
+   "L1_exact_acc": 0.545,
+   "FQ_items": 3,
+   "FQ_both_correct": 3,
+   "mean_confidence": 0.846,
+   "needs_review": 2,
+   "sample_reasons": {
+    "ok": 11,
+    "F_span_not_substring": 2
+   },
+   "verified_vs_plain_same_prediction": 11
+  },
+  "P12": {
+   "val_project": "P13",
+   "n_train": 584,
+   "n_test": 22,
+   "gen_s": 61.3,
+   "items": 22,
+   "items_with_prediction": 19,
+   "sample_verified_rate": 0.864,
+   "L1_exact_acc": 0.526,
+   "FQ_items": 8,
+   "FQ_both_correct": 6,
+   "mean_confidence": 0.864,
+   "needs_review": 3,
+   "sample_reasons": {
+    "ok": 19,
+    "Q_span_not_substring": 1,
+    "F_span_not_substring": 2
+   },
+   "verified_vs_plain_same_prediction": 19
+  },
+  "P13": {
+   "val_project": "P14",
+   "n_train": 590,
+   "n_test": 19,
+   "gen_s": 55.5,
+   "items": 19,
+   "items_with_prediction": 17,
+   "sample_verified_rate": 0.895,
+   "L1_exact_acc": 0.235,
+   "FQ_items": 3,
+   "FQ_both_correct": 2,
+   "mean_confidence": 0.895,
+   "needs_review": 2,
+   "sample_reasons": {
+    "ok": 17,
+    "Q_span_not_substring": 2
+   },
+   "verified_vs_plain_same_prediction": 17
+  },
+  "P14": {
+   "val_project": "P15",
+   "n_train": 597,
+   "n_test": 16,
+   "gen_s": 42.4,
+   "items": 16,
+   "items_with_prediction": 15,
+   "sample_verified_rate": 0.938,
+   "L1_exact_acc": 0.267,
+   "FQ_items": 1,
+   "FQ_both_correct": 0,
+   "mean_confidence": 0.938,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 15,
+    "F_span_not_substring": 1
+   },
+   "verified_vs_plain_same_prediction": 15
+  },
+  "P15": {
+   "val_project": "P01",
+   "n_train": 585,
+   "n_test": 12,
+   "gen_s": 34.2,
+   "items": 12,
+   "items_with_prediction": 11,
+   "sample_verified_rate": 0.917,
+   "L1_exact_acc": 0.364,
+   "FQ_items": 0,
+   "FQ_both_correct": 0,
+   "mean_confidence": 0.917,
+   "needs_review": 1,
+   "sample_reasons": {
+    "ok": 11,
+    "Q_span_not_substring": 1
+   },
+   "verified_vs_plain_same_prediction": 11
+  }
+ },
+ "overall": {
+  "items": 530,
+  "items_with_prediction": 489,
+  "sample_verified_rate": 0.923,
+  "L1_exact_acc": 0.507,
+  "FQ_items": 63,
+  "FQ_both_correct": 49,
+  "mean_confidence": 0.923,
+  "needs_review": 41,
+  "sample_reasons": {
+   "ok": 489,
+   "Q_span_not_substring": 20,
+   "attribute_missing": 3,
+   "F_span_not_substring": 11,
+   "F_span_too_long": 3,
+   "Q_span_no_content": 1,
+   "Q_span_too_long": 3
+  },
+  "verified_vs_plain_same_prediction": 489
+ }
+}
